@@ -12,40 +12,73 @@ import (
 
 const url = "https://api.twitter.com/2/tweets"
 
-func Tweet(message []string) ([]string, error) {
-	client := getClient(config.GetTwitterProperties())
-	var resp []string
-	//Send first tweet
-	body, err := generateTweetRequestBody(message[0])
-	if err != nil {
-		return []string{}, err
-	}
-	post, err := client.Post(url, "application/json", body)
-	if err != nil {
-		return []string{}, err
-	}
-	defer post.Body.Close()
-	resp = append(resp, post.Status)
+func Tweet(tweetList []string) ([]string, error) {
+	twitterClient := getClient(config.GetTwitterProperties())
+	var twitterResponseCodeList []string
 
-	//parse Response to object
-	respBody, _ := ioutil.ReadAll(post.Body)
-	var response model.TweetResponseBody
-	err = json.Unmarshal(respBody, &response)
+	tweetId, err := sendMainTweet(tweetList[0], twitterClient, &twitterResponseCodeList)
 	if err != nil {
-		return []string{}, err
+		return twitterResponseCodeList, err
 	}
 
-	//send second tweet
-	body2, err := generateReplyRequestBody(message[1], response.Data.Id)
-	if err != nil {
-		return []string{}, err
+	tweetList = tweetList[1:]
+	for _, tweet := range tweetList {
+		tweetId, err = sendReplyTweet(tweet, twitterClient, &twitterResponseCodeList, tweetId)
+		if err != nil {
+			return twitterResponseCodeList, err
+		}
 	}
-	post2, err := client.Post(url, "application/json", body2)
+
+	return twitterResponseCodeList, nil
+}
+
+func sendMainTweet(tweet string, twitterClient *http.Client, twitterResponseCodeList *[]string) (string, error) {
+	tweetRequestBody, err := generateTweetRequestBody(tweet)
 	if err != nil {
-		return []string{}, err
+		return "", err
 	}
-	resp = append(resp, post2.Status)
-	return resp, nil
+
+	twitterResponse, err := twitterClient.Post(url, "application/json", tweetRequestBody)
+	if err != nil {
+		return "", err
+	}
+	defer twitterResponse.Body.Close()
+	*twitterResponseCodeList = append(*twitterResponseCodeList, twitterResponse.Status)
+
+	newTweetId, err := getTweetId(twitterResponse)
+	if err != nil {
+		return "", err
+	}
+
+	return newTweetId, nil
+}
+
+func sendReplyTweet(tweet string, twitterClient *http.Client, twitterResponseCodeList *[]string, previousTweetId string) (string, error) {
+	tweetRequestBody, err := generateReplyRequestBody(tweet, previousTweetId)
+	if err != nil {
+		return "", err
+	}
+
+	twitterResponse, err := twitterClient.Post(url, "application/json", tweetRequestBody)
+	if err != nil {
+		return "", err
+	}
+	defer twitterResponse.Body.Close()
+	*twitterResponseCodeList = append(*twitterResponseCodeList, twitterResponse.Status)
+
+	newTweetId, err := getTweetId(twitterResponse)
+	if err != nil {
+		return "", err
+	}
+
+	return newTweetId, nil
+}
+
+func getTweetId(post *http.Response) (string, error) {
+	var twitterResponseBody model.TwitterResponseBody
+	twitterResponseBodyJSON, _ := ioutil.ReadAll(post.Body)
+	err := json.Unmarshal(twitterResponseBodyJSON, &twitterResponseBody)
+	return twitterResponseBody.Data.Id, err
 }
 
 func generateTweetRequestBody(message string) (*bytes.Buffer, error) {
