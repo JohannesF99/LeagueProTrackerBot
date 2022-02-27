@@ -3,21 +3,15 @@ package twitter
 import (
 	"bytes"
 	"encoding/json"
+	"github.com/JohannesF99/LeagueProTrackerBot/config"
 	"github.com/dghubble/oauth1"
 	"net/http"
 )
 
 const url = "https://api.twitter.com/2/tweets"
 
-type Credentials struct {
-	consumerKey    string
-	consumerSecret string
-	token          string
-	tokenSecret    string
-}
-
 func Tweet(message string) string {
-	client := getClient(getCreds())
+	client := getClient(config.GetTwitterProperties())
 	body, err := generateRequestBody(message)
 	if err != nil {
 		return err.Error()
@@ -39,17 +33,8 @@ func generateRequestBody(message string) (*bytes.Buffer, error) {
 	return bytes.NewBuffer(body), nil
 }
 
-func getClient(creds Credentials) *http.Client {
-	config := oauth1.NewConfig(creds.consumerKey, creds.consumerSecret)
-	token := oauth1.NewToken(creds.token, creds.tokenSecret)
-	return config.Client(oauth1.NoContext, token)
-}
-
-func getCreds() Credentials {
-	return Credentials{
-		"consumerKey",
-		"consumerSecret",
-		"token",
-		"tokenSecret",
-	}
+func getClient(creds config.Credentials) *http.Client {
+	oauthConfig := oauth1.NewConfig(creds.ConsumerKey, creds.ConsumerSecret)
+	token := oauth1.NewToken(creds.Token, creds.TokenSecret)
+	return oauthConfig.Client(oauth1.NoContext, token)
 }

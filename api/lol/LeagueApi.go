@@ -3,6 +3,7 @@ package lol
 import (
 	"encoding/json"
 	"fmt"
+	"github.com/JohannesF99/LeagueProTrackerBot/config"
 	"github.com/JohannesF99/LeagueProTrackerBot/model"
 	"io/ioutil"
 	"net/http"
@@ -10,7 +11,6 @@ import (
 
 const (
 	uri = "https://euw1.api.riotgames.com"
-	key = "RGAPI-7459457b-8bc8-4e00-a452-9af6fc6094f3"
 )
 
 func GetPlayerRank(puuid string, queue string) model.LeagueEntryDTO {
@@ -56,7 +56,7 @@ func getPlayerRankByID(id string) []model.LeagueEntryDTO {
 //ALL FUNCTION, WHICH RETURN RAW JSONS
 
 func getPlayerAccountAsJSONByInGameName(inGameName string) string {
-	api := uri + "/lol/summoner/v4/summoners/by-name/" + inGameName + "?api_key=" + key
+	api := uri + "/lol/summoner/v4/summoners/by-name/" + inGameName + "?api_key=" + config.GetRiotKey()
 	response, err := http.Get(api)
 	if err != nil {
 		fmt.Printf("The HTTP request failed with error %s\n", err)
@@ -66,7 +66,7 @@ func getPlayerAccountAsJSONByInGameName(inGameName string) string {
 }
 
 func getPlayerAccountAsJSONByPUUID(puuid string) string {
-	api := uri + "/lol/summoner/v4/summoners/by-puuid/" + puuid + "?api_key=" + key
+	api := uri + "/lol/summoner/v4/summoners/by-puuid/" + puuid + "?api_key=" + config.GetRiotKey()
 	response, err := http.Get(api)
 	if err != nil {
 		fmt.Printf("The HTTP request failed with error %s\n", err)
@@ -76,7 +76,7 @@ func getPlayerAccountAsJSONByPUUID(puuid string) string {
 }
 
 func getPlayerRankAsJSONByID(id string) string {
-	api := uri + "/lol/league/v4/entries/by-summoner/" + id + "?api_key=" + key
+	api := uri + "/lol/league/v4/entries/by-summoner/" + id + "?api_key=" + config.GetRiotKey()
 	response, err := http.Get(api)
 	if err != nil {
 		fmt.Printf("The HTTP request failed with error %s\n", err)
