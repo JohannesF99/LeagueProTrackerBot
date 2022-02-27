@@ -5,6 +5,7 @@ import (
 	"github.com/JohannesF99/LeagueProTrackerBot/loader"
 	"github.com/JohannesF99/LeagueProTrackerBot/model"
 	"strconv"
+	"strings"
 	"time"
 )
 
@@ -26,30 +27,33 @@ func main() {
 	teams := loader.LoadPrimeleagueWatchlist()
 	//loader.UpdatePuuidForAllTeams(&teams)
 	//println(twitter.Tweet(generateTextBody(loader.GetRankedDataForAllPlayers(&teams))))
-	println(generateTextBody(loader.GetRankedDataForAllPlayers(&teams)))
+	println(strings.Join(generateTextBody(loader.GetRankedDataForAllPlayers(&teams), 2), "\n\n"))
 }
 
-func generateTextBody(ranks []model.Player) string {
+func generateTextBody(ranks []model.Player, pages int) []string {
 	date := time.Now()
-	body := "💫 @PrimeLeague SoloQ " + date.Format("02.01.2006") + " 💫\n\n"
-	body += generateLadderAsString(ranks, 1)
-	body += "\n#StraussPrimeLeague "
-	return body
+	bodyList := generateLadderAsString(ranks, pages)
+	bodyList[0] = "💫 @PrimeLeague SoloQ " + date.Format("02.01.2006") + " 💫\n\n" + bodyList[0] + "\n#StraussPrimeLeague "
+	return bodyList
 }
 
-func generateLadderAsString(ranks []model.Player, page int) string {
-	var body string
+func generateLadderAsString(ranks []model.Player, pages int) []string {
+	var bodyList []string
 	diffEmoji := ""
-	for i := page * 5; i < (page*5)+5; i++ {
-		if ranks[i].LpDiff > 0 {
-			diffEmoji = "+"
+	for i := 0; i < pages; i++ {
+		var body string
+		for j := i * 5; j < (i*5)+5; j++ {
+			if ranks[j].LpDiff > 0 {
+				diffEmoji = "+"
+			}
+			if ranks[j].LpDiff == 0 {
+				diffEmoji = "±"
+			}
+			body += emoji[j] + " " +
+				ranks[j].PlayerName + " (" + strconv.Itoa(ranks[j].Lp) + "LP | " +
+				diffEmoji + strconv.Itoa(ranks[j].LpDiff) + "LP)\n"
 		}
-		if ranks[i].LpDiff == 0 {
-			diffEmoji = "±"
-		}
-		body += emoji[i] + " " +
-			ranks[i].PlayerName + " (" + strconv.Itoa(ranks[i].Lp) + "LP | " +
-			diffEmoji + strconv.Itoa(ranks[i].LpDiff) + "LP)\n"
+		bodyList = append(bodyList, body)
 	}
-	return body
+	return bodyList
 }
