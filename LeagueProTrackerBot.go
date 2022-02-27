@@ -39,10 +39,10 @@ func generateTextBody(ranks []model.Player, pages int) []string {
 
 func generateLadderAsString(ranks []model.Player, pages int) []string {
 	var bodyList []string
-	diffEmoji := ""
 	for i := 0; i < pages; i++ {
 		var body string
 		for j := i * 5; j < (i*5)+5; j++ {
+			diffEmoji := ""
 			if ranks[j].LpDiff > 0 {
 				diffEmoji = "+"
 			}
@@ -50,7 +50,7 @@ func generateLadderAsString(ranks []model.Player, pages int) []string {
 				diffEmoji = "±"
 			}
 			body += emoji[j] + " " +
-				ranks[j].PlayerName + " (" + strconv.Itoa(ranks[j].Lp) + "LP | " +
+				ranks[j].PlayerName + "  (" + strconv.Itoa(ranks[j].Lp) + "LP | " +
 				diffEmoji + strconv.Itoa(ranks[j].LpDiff) + "LP)\n"
 		}
 		bodyList = append(bodyList, body)
