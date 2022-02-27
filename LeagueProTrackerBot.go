@@ -50,7 +50,7 @@ func generateLadderAsString(ranks []model.Player, pages int) []string {
 				diffEmoji = "±"
 			}
 			body += emoji[j] + " " +
-				ranks[j].PlayerName + "  (" + strconv.Itoa(ranks[j].Lp) + "LP | " +
+				ranks[j].PlayerName + "   (" + strconv.Itoa(ranks[j].Lp) + "LP | " +
 				diffEmoji + strconv.Itoa(ranks[j].LpDiff) + "LP)\n"
 		}
 		bodyList = append(bodyList, body)
