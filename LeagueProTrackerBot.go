@@ -24,16 +24,17 @@ var emoji = map[int]string{
 
 func main() {
 	fmt.Println("Go-Twitter Bot v0.01")
-	teams := loader.LoadPrimeleagueWatchlist()
+	region := loader.LoadRegionWatchlist()
 	//loader.UpdatePuuidForAllTeams(&teams)
-	//println(twitter.Tweet(generateTextBody(loader.GetRankedDataForAllPlayers(&teams))))
-	println(strings.Join(generateTextBody(loader.GetRankedDataForAllPlayers(&teams), 2), "\n\n"))
+	//tweet, _ := twitter.Tweet(generateTextBody(loader.GetRankedDataForAllPlayers(&teams), 2))
+	//println(strings.Join(tweet, "\n"))
+	println(strings.Join(generateTextBody(region, loader.GetRankedDataForAllPlayers(&region.Teams), 2), "\n"))
 }
 
-func generateTextBody(ranks []model.Player, pages int) []string {
+func generateTextBody(region model.Region, ranking []model.Player, pages int) []string {
 	date := time.Now()
-	bodyList := generateLadderAsString(ranks, pages)
-	bodyList[0] = "💫 @PrimeLeague SoloQ " + date.Format("02.01.2006") + " 💫\n\n" + bodyList[0] + "\n#StraussPrimeLeague "
+	bodyList := generateLadderAsString(ranking, pages)
+	bodyList[0] = "💫 " + region.LeagueName + " " + date.Format("02.01.") + " 💫\n\n" + bodyList[0] + "\n" + region.Hashtag
 	return bodyList
 }
 
@@ -42,18 +43,33 @@ func generateLadderAsString(ranks []model.Player, pages int) []string {
 	for i := 0; i < pages; i++ {
 		var body string
 		for j := i * 5; j < (i*5)+5; j++ {
-			diffEmoji := ""
-			if ranks[j].LpDiff > 0 {
-				diffEmoji = "+"
-			}
-			if ranks[j].LpDiff == 0 {
-				diffEmoji = "±"
-			}
+			diffEmoji := getDifferenceEmoji(ranks[j])
+			division := getDivision(ranks[j])
 			body += emoji[j] + " " +
-				ranks[j].PlayerName + "   (" + strconv.Itoa(ranks[j].Lp) + "LP | " +
+				ranks[j].PlayerName + "   (" + division + strconv.Itoa(ranks[j].Lp) + "LP | " +
 				diffEmoji + strconv.Itoa(ranks[j].LpDiff) + "LP)\n"
 		}
 		bodyList = append(bodyList, body)
 	}
 	return bodyList
+}
+
+func getDivision(player model.Player) string {
+	if strings.Contains(player.Division, "Chall") ||
+		strings.Contains(player.Division, "GM") ||
+		strings.Contains(player.Division, "MA") ||
+		player.Division == "" {
+		return ""
+	}
+	return player.Division + player.SubDiv + " "
+}
+
+func getDifferenceEmoji(player model.Player) string {
+	if player.LpDiff > 0 {
+		return "+"
+	}
+	if player.LpDiff == 0 {
+		return "±"
+	}
+	return ""
 }
