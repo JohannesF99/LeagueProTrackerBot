@@ -12,7 +12,7 @@ func main() {
 	if utils.ShouldUpdatePuuid() {
 		utils.UpdatePuuidForAllTeams(&region)
 	}
-	//tweet, _ := twitter.Tweet(utils.GenerateTextBody(utils.GetRankedDataForAllPlayers(&teams), 2))
+	//tweet, _ := twitter.Tweet(utils.GenerateTextBody(region, utils.GetRankedDataForAllPlayers(region), 2))
 	//println(strings.Join(tweet, "\n"))
 	println(strings.Join(utils.GenerateTextBody(region, utils.GetRankedDataForAllPlayers(region), utils.GetTweetCount()), "\n\n"))
 }
