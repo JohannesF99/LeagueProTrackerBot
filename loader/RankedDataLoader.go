@@ -8,23 +8,22 @@ import (
 )
 
 var div = map[string]int{
-	"Chall": 7,
-	"GM":    7,
-	"MA":    7,
-	"Dia":   6,
-	"Plat":  5,
-	"Gold":  4,
-	"Sil":   3,
-	"Bro":   2,
-	"Iron":  1,
+	"Chall": 6,
+	"GM":    6,
+	"MA":    6,
+	"Dia":   5,
+	"Plat":  4,
+	"Gold":  3,
+	"Sil":   2,
+	"Bro":   1,
+	"Iron":  0,
 }
 
 var sdiv = map[string]int{
-	"I":   5,
-	"II":  4,
-	"III": 3,
-	"IV":  2,
-	"V":   1,
+	"I":   3,
+	"II":  2,
+	"III": 1,
+	"IV":  0,
 }
 
 func GetRankedDataForAllPlayers(teams *[]model.Team) []model.Player {
@@ -83,14 +82,13 @@ func getSortedPlayerList(teams []model.Team) []model.Player {
 		}
 	}
 	sort.Slice(playerList, func(i, j int) bool {
-		if div[playerList[i].Division] == div[playerList[j].Division] {
-			if sdiv[playerList[i].SubDiv] == sdiv[playerList[j].SubDiv] {
-				return playerList[i].Lp > playerList[j].Lp
-			} else {
-				return sdiv[playerList[i].SubDiv] > sdiv[playerList[j].SubDiv]
-			}
-		}
-		return div[playerList[i].Division] > div[playerList[j].Division]
+		lp1 := getTrueLeaguePoints(playerList[i].Division, playerList[i].SubDiv, playerList[i].Lp)
+		lp2 := getTrueLeaguePoints(playerList[j].Division, playerList[j].SubDiv, playerList[j].Lp)
+		return lp1 > lp2
 	})
 	return playerList
+}
+
+func getTrueLeaguePoints(division string, subDivision string, lp int) int {
+	return ((div[division]*5 + sdiv[subDivision]) * 100) + lp
 }
