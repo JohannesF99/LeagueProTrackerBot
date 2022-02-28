@@ -1,4 +1,4 @@
-package loader
+package utils
 
 import (
 	"github.com/JohannesF99/LeagueProTrackerBot/api/lol"
@@ -38,14 +38,14 @@ func getUpdatedLeaguePoints(teams *[]model.Team) {
 			leagueEntry := lol.GetPlayerRank(player.PuuId, "RANKED_SOLO_5x5")
 			(*teams)[i].Players[j].LpDiff = leagueEntry.LeaguePoints - player.Lp
 			(*teams)[i].Players[j].Lp = leagueEntry.LeaguePoints
-			(*teams)[i].Players[j].Division = getDivision(leagueEntry.Tier)
+			(*teams)[i].Players[j].Division = getDivisionTag(leagueEntry.Tier)
 			(*teams)[i].Players[j].SubDiv = leagueEntry.Rank
 			time.Sleep(1 * time.Second)
 		}
 	}
 }
 
-func getDivision(tier string) string {
+func getDivisionTag(tier string) string {
 	var division string
 	switch tier {
 	case "CHALLENGER":
