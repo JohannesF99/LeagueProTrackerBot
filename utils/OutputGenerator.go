@@ -23,7 +23,7 @@ var emoji = map[int]string{
 func GenerateTextBody(region model.Region, ranking []model.Player, pages int) []string {
 	date := time.Now()
 	bodyList := generateLadderAsString(ranking, pages)
-	bodyList[0] = "💫 " + region.LeagueName + " Ranking " + date.Format("02.01.") + " 💫\n\n" + bodyList[0] + "\n" + region.Hashtag
+	bodyList[0] = "💫 " + region.LeagueName + " SoloQ Ranking " + date.Format("02.01.") + " 💫\n\n" + bodyList[0] + "\n" + region.Hashtag
 	return bodyList
 }
 
