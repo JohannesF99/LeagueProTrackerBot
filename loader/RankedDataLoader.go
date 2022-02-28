@@ -26,14 +26,13 @@ var sdiv = map[string]int{
 	"IV":  0,
 }
 
-func GetRankedDataForAllPlayers(teams *[]model.Team) []model.Player {
-	getUpdatedLeaguePoints(teams)
-	UpdatePlayerWatchList(*teams)
-	return getSortedPlayerList(*teams)
+func GetRankedDataForAllPlayers(region model.Region) []model.Player {
+	getUpdatedLeaguePoints(&region.Teams)
+	UpdatePlayerWatchList(region)
+	return getSortedPlayerList(region.Teams)
 }
 
-func getUpdatedLeaguePoints(teams *[]model.Team) []int {
-	var diff []int
+func getUpdatedLeaguePoints(teams *[]model.Team) {
 	for i, team := range *teams {
 		for j, player := range team.Players {
 			leagueEntry := lol.GetPlayerRank(player.PuuId, "RANKED_SOLO_5x5")
@@ -44,7 +43,6 @@ func getUpdatedLeaguePoints(teams *[]model.Team) []int {
 			time.Sleep(1 * time.Second)
 		}
 	}
-	return diff
 }
 
 func getDivision(tier string) string {

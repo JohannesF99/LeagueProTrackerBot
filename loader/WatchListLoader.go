@@ -22,17 +22,17 @@ func LoadRegionWatchlist() model.Region {
 	return region
 }
 
-func UpdatePuuidForAllTeams(teams *[]model.Team) {
-	for i, s := range *teams {
+func UpdatePuuidForAllTeams(region model.Region) {
+	for i, s := range region.Teams {
 		for j, si := range s.Players {
-			(*teams)[i].Players[j].PuuId = lol.GetPlayerPUUIDBySummonerID(si.SummonerName)
+			region.Teams[i].Players[j].PuuId = lol.GetPlayerPUUIDBySummonerID(si.SummonerName)
 		}
 		time.Sleep(2 * time.Second)
 	}
-	UpdatePlayerWatchList(*teams)
+	UpdatePlayerWatchList(region)
 }
 
-func UpdatePlayerWatchList(teams []model.Team) {
-	file, _ := json.MarshalIndent(teams, "", " ")
+func UpdatePlayerWatchList(region model.Region) {
+	file, _ := json.MarshalIndent(region, "", " ")
 	_ = ioutil.WriteFile("./config/player_watchlist.json", file, 0644)
 }
