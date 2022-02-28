@@ -72,6 +72,7 @@ func getPlayerAccountAsJSONByPUUID(puuid string) string {
 		fmt.Printf("The HTTP request failed with error %s\n", err)
 	}
 	data, _ := ioutil.ReadAll(response.Body)
+	println(response.Status)
 	return string(data)
 }
 
