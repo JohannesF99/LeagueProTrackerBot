@@ -7,28 +7,29 @@ import (
 	"time"
 )
 
-var div = map[string]int{
-	"Chall": 6,
-	"GM":    6,
-	"MA":    6,
-	"Dia":   5,
-	"Plat":  4,
-	"Gold":  3,
-	"Sil":   2,
-	"Bro":   1,
-	"Iron":  0,
-}
-
-var sdiv = map[string]int{
-	"I":   3,
-	"II":  2,
-	"III": 1,
-	"IV":  0,
-}
+var (
+	div = map[string]int{
+		"Chall": 6,
+		"GM":    6,
+		"MA":    6,
+		"Dia":   5,
+		"Plat":  4,
+		"Gold":  3,
+		"Sil":   2,
+		"Bro":   1,
+		"Iron":  0,
+	}
+	sdiv = map[string]int{
+		"I":   3,
+		"II":  2,
+		"III": 1,
+		"IV":  0,
+	}
+)
 
 func GetRankedDataForAllPlayers(region model.Region) []model.Player {
-	getUpdatedLeaguePoints(&region.Teams)
-	UpdatePlayerWatchList(region)
+	//getUpdatedLeaguePoints(&region.Teams)
+	//updatePlayerWatchList(region)
 	return getSortedPlayerList(region.Teams)
 }
 

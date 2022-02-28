@@ -12,7 +12,7 @@ import (
 
 func LoadRegionWatchlist() model.Region {
 	var region model.Region
-	regionAsJson, _ := os.Open("./config/player_watchlist.json")
+	regionAsJson, _ := os.Open(GetFilename())
 	defer regionAsJson.Close()
 	byteValue, _ := ioutil.ReadAll(regionAsJson)
 	err := json.Unmarshal(byteValue, &region)
@@ -29,10 +29,14 @@ func UpdatePuuidForAllTeams(region model.Region) {
 		}
 		time.Sleep(2 * time.Second)
 	}
-	UpdatePlayerWatchList(region)
+	updatePlayerWatchList(region)
 }
 
-func UpdatePlayerWatchList(region model.Region) {
+func updatePlayerWatchList(region model.Region) {
 	file, _ := json.MarshalIndent(region, "", " ")
-	_ = ioutil.WriteFile("./config/player_watchlist.json", file, 0644)
+	_ = ioutil.WriteFile(GetFilename(), file, 0644)
+}
+
+func GetFilename() string {
+	return "./config/" + GetRegionName() + "_watchlist.json"
 }
