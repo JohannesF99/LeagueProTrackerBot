@@ -29,7 +29,7 @@ func GetRegionName() string {
 		println("Region invalid")
 		os.Exit(2)
 	}
-	return *regionName
+	return strings.ToLower(*regionName)
 }
 
 func ShouldUpdatePuuid() bool {
