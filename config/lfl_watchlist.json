@@ -1,0 +1,516 @@
+{
+ "leagueName": "@LFLOfficiel",
+ "hashtag": "#LFL",
+ "teams": [
+  {
+   "team": "Misfits Premier",
+   "tag": "@GamerLegion",
+   "players": [
+    {
+     "playerName": "MSFP Irrelevant",
+     "summonerName": "MSF Irrelevant",
+     "puuId": "z5Nvp6vzxN0-6iWMwDsxpeLff1mxKutg8d7BrPa9z3mmShEjeVni5u-koc7f1tAIXiWNEKtSgajNDQ",
+     "lp": 87,
+     "lpDiff": 85,
+     "division": "Dia",
+     "subDiv": "I"
+    },
+    {
+     "playerName": "MSFP Tynx",
+     "summonerName": "EU Kanavi",
+     "puuId": "AuHmwhlzdaUjkTBWtyI4lRUmd_VN24twA0MTGV-r1hOb3DxFFuW4lsPsGTWbZbhBI4cVCxBNih82MQ",
+     "lp": 798,
+     "lpDiff": 0,
+     "division": "Chall",
+     "subDiv": "I"
+    },
+    {
+     "playerName": "MSFP Czajek",
+     "summonerName": "Czajek9z",
+     "puuId": "lGUiJyVJB5P0OqICSOAACpxI74ttf0Ey65EwXjL6wOHlUXK7vesbpT3NmwCTzP4INXrwqkLzF-q18g",
+     "lp": 553,
+     "lpDiff": 0,
+     "division": "GM",
+     "subDiv": "I"
+    },
+    {
+     "playerName": "MSFP Woolite",
+     "summonerName": "Wulajt",
+     "puuId": "_oRAM4VkNC54okvvY4YmS1aH5jCU85m3UQwsgXH_PjZN_AR5Ov-6EwElVX4nLc6pXZQKDz9yP_VtZg",
+     "lp": 550,
+     "lpDiff": 21,
+     "division": "GM",
+     "subDiv": "I"
+    },
+    {
+     "playerName": "MSFP Vander",
+     "summonerName": "vandiii",
+     "puuId": "I-kzMtPEqoQoqpTHV1koZCACeM_8PZ0b61c-TGT21BvpeTp1q9Fh3IXln6iUv0oPv4xIVx0-8JTwNg",
+     "lp": 0,
+     "lpDiff": 0,
+     "division": "",
+     "subDiv": ""
+    }
+   ]
+  },
+  {
+   "team": "Karmine Corp",
+   "tag": "@EinSpandau",
+   "players": [
+    {
+     "playerName": "KC Cabochard",
+     "summonerName": "Saken le chauve",
+     "puuId": "p__0bTXsxZN3dH3lq-z7yXp2PV1V8qOiKBUbUtVxf2RveAnTR3JyXgre4ApHLQaySowmsU0H_d-WUg",
+     "lp": 875,
+     "lpDiff": 0,
+     "division": "Chall",
+     "subDiv": "I"
+    },
+    {
+     "playerName": "KC 113",
+     "summonerName": "BLU 113",
+     "puuId": "4e133PqPIrtSLuSV7FoVNcA1A__OJMEGQEJzHMElSSsag_bXbL26knBoeqbpRyXS7VYt3eamnwf-rA",
+     "lp": 637,
+     "lpDiff": 0,
+     "division": "GM",
+     "subDiv": "I"
+    },
+    {
+     "playerName": "KC Saken",
+     "summonerName": "KC SAKEN",
+     "puuId": "9WaRhmYqSyJo13NlsJbmBsDBd4VOPqEln_WVLNyLxHGWYmiEM6ny4rVcDCPIHRP_OOdW7COh2FLuCA",
+     "lp": 634,
+     "lpDiff": 0,
+     "division": "GM",
+     "subDiv": "I"
+    },
+    {
+     "playerName": "KC Rekkles",
+     "summonerName": "KC Rekkles",
+     "puuId": "Gpp5cT8MHS6HLEOfShlxjrlDhJpVVS4vtbOinvZObr7pF9fWO0ob8qu0DjFPr-tjJuWLbSAN2-zMXA",
+     "lp": 575,
+     "lpDiff": 0,
+     "division": "GM",
+     "subDiv": "I"
+    },
+    {
+     "playerName": "KC Hantera",
+     "summonerName": "KC Hantera1",
+     "puuId": "X0rq_57dIL5Wh4Z9kRshAVNXY62AmBZY36F-AiPZzbEXZrMJrHbVCtpy79ng3HkukoWmrsgP4IWtOQ",
+     "lp": 1049,
+     "lpDiff": 0,
+     "division": "Chall",
+     "subDiv": "I"
+    }
+   ]
+  },
+  {
+   "team": "Vitality.Bee",
+   "tag": "@mousesports",
+   "players": [
+    {
+     "playerName": "VITB Szygenda",
+     "summonerName": "Kæmpe Røv",
+     "puuId": "rOOJo8n5iCk6IDAVY5E6lnx53zi96RUhDfHPNDZ9YaD45BuvlNZjx2yPDgM4yjocbovEPpwmGyLBcw",
+     "lp": 833,
+     "lpDiff": 0,
+     "division": "Chall",
+     "subDiv": "I"
+    },
+    {
+     "playerName": "VITB Skeanz",
+     "summonerName": "Sunflοwer",
+     "puuId": "n4KbwH3PxiR3xekeEG6afN-yj1NkyW1AKwWRjfwJJEavv18ks_SYK375LZUldR9ewfDFwT6pcc0xdA",
+     "lp": 149,
+     "lpDiff": 0,
+     "division": "MA",
+     "subDiv": "I"
+    },
+    {
+     "playerName": "VITB Diplex",
+     "summonerName": "v diplex",
+     "puuId": "zqQX30Q2ZazmXMZ2dyix0i-MvvqSCIs4y8uF0wbIH04dWyTLV_87FLMjoiME0Dngj97zAnVwTfIrmA",
+     "lp": 1135,
+     "lpDiff": 0,
+     "division": "Chall",
+     "subDiv": "I"
+    },
+    {
+     "playerName": "VITB Jeskla",
+     "summonerName": "Jesklaa",
+     "puuId": "rjSjyXYpd7ZGws-rY0iiTNMqFoQFbPtt3Y9B4VxAcmGLcBDrsvh1hmWmjbLEopYQlLaxAPDd1g0HkA",
+     "lp": 167,
+     "lpDiff": 0,
+     "division": "MA",
+     "subDiv": "I"
+    },
+    {
+     "playerName": "VITB Jactroll",
+     "summonerName": "Juliusz Cezar",
+     "puuId": "geBQduuJpzq9s6OGrZmDTNFUkM0X9bRbIa4H01Xqf_g44Q_ADi91AEUJ4Pd7ustUJaR-wvJU2cYHgw",
+     "lp": 320,
+     "lpDiff": 0,
+     "division": "MA",
+     "subDiv": "I"
+    }
+   ]
+  },
+  {
+   "team": "Solary",
+   "tag": "@S04Esports",
+   "players": [
+    {
+     "playerName": "SLY Kio",
+     "summonerName": "Kiooo",
+     "puuId": "OEQKMinyZv1r0Yqa2w3LPYCooSe53pltJgdsHLdyRCN6W0nMBDsPglgiKGis-5vbcVp48TLh6unBNg",
+     "lp": 259,
+     "lpDiff": 0,
+     "division": "MA",
+     "subDiv": "I"
+    },
+    {
+     "playerName": "SLY Djoko",
+     "summonerName": "SLY DJOKOZOR",
+     "puuId": "tm2qeXHPkQ9cMRrR4HXuT-dR_7XChyhYYnCGdVgZjQc50wVhqtrKDCZv88t-RZ4A1yereiz_Mk9fsg",
+     "lp": 760,
+     "lpDiff": 0,
+     "division": "GM",
+     "subDiv": "I"
+    },
+    {
+     "playerName": "SLY Scarlet",
+     "summonerName": "SLY Scarlet",
+     "puuId": "KvyjSbq76ALu3D5agAHOCs6y3QUQlWFD4PNuKsHgmwoTGiC7pixs8WetBrrxvezJalX39uXGh7F_4w",
+     "lp": 730,
+     "lpDiff": 0,
+     "division": "GM",
+     "subDiv": "I"
+    },
+    {
+     "playerName": "SLY Asza",
+     "summonerName": "RoseLMonster",
+     "puuId": "6RAxOR5apgb1M7jQQbzDT0w8MQyOQkE10WOgBXiM5Uf_VsFIJujTsF6PK9LmXFUEYmiM9uFWtRpgSA",
+     "lp": 1267,
+     "lpDiff": 0,
+     "division": "Chall",
+     "subDiv": "I"
+    },
+    {
+     "playerName": "SLY Steeelback",
+     "summonerName": "SLY SteeelBack",
+     "puuId": "ZIOmIhsQESlQcnJYpDF1ksFx0W8m9g1VFufPmSdHeour6QLT4T79_S4pbptvV7xLb0fYDKbcQnVDRA",
+     "lp": 637,
+     "lpDiff": 0,
+     "division": "GM",
+     "subDiv": "I"
+    }
+   ]
+  },
+  {
+   "team": "LDLC OL",
+   "tag": "@UnicornsOfLove",
+   "players": [
+    {
+     "playerName": "LDLC Ragner",
+     "summonerName": "LDLC Rago",
+     "puuId": "tleQP9FJbxekkyz-Dx_w8TGvp4_df5JHjebZakwz-3vfXL6dYl3K7SQXG2wJFFdDLTftjyldNEzRDw",
+     "lp": 733,
+     "lpDiff": 0,
+     "division": "GM",
+     "subDiv": "I"
+    },
+    {
+     "playerName": "LDLC Yike",
+     "summonerName": "Yikeru",
+     "puuId": "y0x26yKQpuYoPL2EC0TU0EVkR5bxvdp-uuyzWRZNZbpFb84F2paz1h7v0uKXlrdYglTafeBKI3Isww",
+     "lp": 1078,
+     "lpDiff": 0,
+     "division": "Chall",
+     "subDiv": "I"
+    },
+    {
+     "playerName": "LDLC Eika",
+     "summonerName": "LDLC Eika",
+     "puuId": "XBv_uOSXAVLe2FjqF8T3URhgacTffmp_nOGhp9FSHi7bVUVBB8pcv-nU9mlSGno3PF9W5a2bW7tLjA",
+     "lp": 1172,
+     "lpDiff": 0,
+     "division": "Chall",
+     "subDiv": "I"
+    },
+    {
+     "playerName": "LDLC Exakick",
+     "summonerName": "LDLC Exakick0",
+     "puuId": "G8HiQN7nR8eO8D62TvoeC8083ZzeHPhsNIbWpN8OVBaAMTnASBUhWJGZDEAjVor7iZpKtLEdGmG0iw",
+     "lp": 805,
+     "lpDiff": 0,
+     "division": "Chall",
+     "subDiv": "I"
+    },
+    {
+     "playerName": "LDLC Doss",
+     "summonerName": "S12 ZYZZ",
+     "puuId": "-hRQuDPgJkUiy2sRJkthQzoq5w5dBpt_0eorxWJV-VAEzkgjtAk1VHx6By9w5SzWUKqASrD4EHGeVg",
+     "lp": 497,
+     "lpDiff": 0,
+     "division": "MA",
+     "subDiv": "I"
+    }
+   ]
+  },
+  {
+   "team": "BDS Academy",
+   "tag": "@BIGCLANgg",
+   "players": [
+    {
+     "playerName": "BDSA Agresivoo",
+     "summonerName": "agrsv",
+     "puuId": "b6NaNfJom3pogGChHaEHW1hdqP1zCc7Ep5GRA_z9JR5he0zGFAca0vOo5q_pzo9Uc1rfAxwZgY35hQ",
+     "lp": 721,
+     "lpDiff": 0,
+     "division": "GM",
+     "subDiv": "I"
+    },
+    {
+     "playerName": "BDSA Sheo",
+     "summonerName": "sheøqlf",
+     "puuId": "zatgswJVEI8rU5hFNKsMSSLnwfASd_fIisImUHSjv-p3dEFFtnIHUW3pYtnF-8_OnULnf679YixeDA",
+     "lp": 1229,
+     "lpDiff": 0,
+     "division": "Chall",
+     "subDiv": "I"
+    },
+    {
+     "playerName": "BDSA Xico",
+     "summonerName": "BDS Xico",
+     "puuId": "nZHMf5jNAMJA7CG5URlQXnR2JydjAIbLBBejpXqv6OaVUg7OdTSEL3OXUtv_bBMTe9VRmfw99eRK3A",
+     "lp": 991,
+     "lpDiff": 0,
+     "division": "Chall",
+     "subDiv": "I"
+    },
+    {
+     "playerName": "BDSA Crownshot",
+     "summonerName": "pink sun",
+     "puuId": "3ABG8GA69pkznwyUr88x7aCikPnL_0KMMkBN5pKWV3JvmGlUJNENfIr49qBYp6yW9PtMFILYZTkznw",
+     "lp": 1462,
+     "lpDiff": 0,
+     "division": "Chall",
+     "subDiv": "I"
+    },
+    {
+     "playerName": "BDSA Erdote",
+     "summonerName": "Erdotee",
+     "puuId": "YJp3WsqjafEQNouTV8MhwkA5YDOqjbinJkzMqo97yiHeiWSES3Cl7YccGXC_IbpLdaA8eEULCvGtrA",
+     "lp": 424,
+     "lpDiff": 0,
+     "division": "MA",
+     "subDiv": "I"
+    }
+   ]
+  },
+  {
+   "team": "GameWard",
+   "tag": "@SKGaming",
+   "players": [
+    {
+     "playerName": "GW Melonik",
+     "summonerName": "Melonik",
+     "puuId": "9JxrY_r2eFYoh1_IbhfecZSsFEHwdjmRCXIoRYDFoOkQo2o3yxLYWM7N-ro2nglNM_1AoIUqcrQYfQ",
+     "lp": 1011,
+     "lpDiff": 0,
+     "division": "Chall",
+     "subDiv": "I"
+    },
+    {
+     "playerName": "GW Akabane",
+     "summonerName": "Akabαne",
+     "puuId": "uOEQBR1pp-M6Jh5Vm1nTUQE-_RAgZwjBQGaluaIG4n94GIDOxHAMkPFK8qXLXfnBnqpxLAlRk8N8lg",
+     "lp": 779,
+     "lpDiff": 0,
+     "division": "GM",
+     "subDiv": "I"
+    },
+    {
+     "playerName": "GW Czekolad",
+     "summonerName": "Rank 10 or open",
+     "puuId": "98CiAGaWd7E_onNw2mzy03fWg_YqMK9CaQbSMr3l9uTuJwxb9MW83muWHUv6V0i6gHzAEjsHHoN8Fg",
+     "lp": 484,
+     "lpDiff": 0,
+     "division": "MA",
+     "subDiv": "I"
+    },
+    {
+     "playerName": "GW Innaxe",
+     "summonerName": "motus vetiti",
+     "puuId": "Ji5CI5k4gN-YLnkWtkVIsvOGn6PxRzcbWLoLF1T3mr0ozg-gvEeGvWDN7jmFr0XPGuAKpWk-3_f6rA",
+     "lp": 1207,
+     "lpDiff": 0,
+     "division": "Chall",
+     "subDiv": "I"
+    },
+    {
+     "playerName": "GW Kamilius",
+     "summonerName": "jupijuhu",
+     "puuId": "06VUJBq0TANkUmbj9yDbGnzR1DNwugx6IunN5MQYgxB0jYO5Hy4Us-D0js7NDJjmB4xYp_b7TxT5Ag",
+     "lp": 272,
+     "lpDiff": 0,
+     "division": "MA",
+     "subDiv": "I"
+    }
+   ]
+  },
+  {
+   "team": "GamersOrigin",
+   "tag": "@PENTA1860",
+   "players": [
+    {
+     "playerName": "GO Vizicsacsi",
+     "summonerName": "Vizícsacsi",
+     "puuId": "wCd22G7-BAlQTyIjMQunFv21nxDbpzdrRaJzwxrIe9rZVgNdvIV7kZ0WT3Ri4jbQnvDmplFPH1yGFA",
+     "lp": 557,
+     "lpDiff": 0,
+     "division": "GM",
+     "subDiv": "I"
+    },
+    {
+     "playerName": "GO Karim kt",
+     "summonerName": "Karim kt",
+     "puuId": "O_vfhvk-LgrMEJaTLJKgdjZsWk7BCyhAN7w8OGunuNwVTYKNjA7C9KitEJCXi8L_gTrvJSOOfawveA",
+     "lp": 819,
+     "lpDiff": 0,
+     "division": "Chall",
+     "subDiv": "I"
+    },
+    {
+     "playerName": "GO Ronaldo",
+     "summonerName": "zhjz",
+     "puuId": "8sIp5EC1F11FsyeWjRs4mRbzLOuUlxwAuN8eUdoWofZjdR5uZntMzI65RBcLjWhlHcBlqkesEXPd4A",
+     "lp": 741,
+     "lpDiff": 0,
+     "division": "GM",
+     "subDiv": "I"
+    },
+    {
+     "playerName": "GO Smiley",
+     "summonerName": "XDSMILEYs6XDs6XD",
+     "puuId": "N77KIrmb-qrgBsW-CS27tWnIIji9n3XJCr_4qYboc7W6wHgPlymEhMLgixyi_i6PFo72RA48IL_N2Q",
+     "lp": 1019,
+     "lpDiff": 0,
+     "division": "Chall",
+     "subDiv": "I"
+    },
+    {
+     "playerName": "GO Enjawve",
+     "summonerName": "enjawve",
+     "puuId": "wCCpTeUgK_krumPamw10wF1Vseq2IjLBWijVM80EllWRWzsGBWnvUokRvaQs9jcadfORHY8iJDJxEA",
+     "lp": 616,
+     "lpDiff": 0,
+     "division": "GM",
+     "subDiv": "I"
+    }
+   ]
+  },
+  {
+   "team": "Team Oplon",
+   "tag": "@E_WIE_ESPORTS",
+   "players": [
+    {
+     "playerName": "TO Darlik",
+     "summonerName": "Darlik1",
+     "puuId": "7VSIjp1tN1DjcxJvwvLBaCPrQPCeau3K4NNmRofYbR7WPYP2sijNMclyBOp3Ga151OHJjYFEl5R2nw",
+     "lp": 496,
+     "lpDiff": 0,
+     "division": "GM",
+     "subDiv": "I"
+    },
+    {
+     "playerName": "TO Bruness",
+     "summonerName": "senurB",
+     "puuId": "kVKnl23ayVM9-FkjVGyrD2MAJFcv28-0DpErk2Ph7IL4aUwGGIwsSLuoz9H1m8MZg5RCFaI9TJDcUg",
+     "lp": 581,
+     "lpDiff": 0,
+     "division": "GM",
+     "subDiv": "I"
+    },
+    {
+     "playerName": "TO Peng",
+     "summonerName": "Peng04",
+     "puuId": "elQWf6CIXtkkz5ySNsd8fiibX0h5ht6p-llwRbGgl-oJDDkrCjkycS5KjK_UDXtsMyeNfOnFuuR-HQ",
+     "lp": 810,
+     "lpDiff": 0,
+     "division": "Chall",
+     "subDiv": "I"
+    },
+    {
+     "playerName": "TO Xicor",
+     "summonerName": "LFL ZYZZ",
+     "puuId": "gfKPW0ni8D9RZty6vQDthmICDJsLCL4T3AC1cm5wGouxXoj1zUTcoih9gOU5nskroGZ_RivN_JhovA",
+     "lp": 197,
+     "lpDiff": 0,
+     "division": "MA",
+     "subDiv": "I"
+    },
+    {
+     "playerName": "TO Absolute",
+     "summonerName": "absolute13h",
+     "puuId": "ha5soWnH3FgEV-18ZSx-nREt6gNNKy81iHwT_QKo_tczd-X7du7aD5ag49SHv6LdGq9vql9FWXRZ9g",
+     "lp": 831,
+     "lpDiff": 18,
+     "division": "Chall",
+     "subDiv": "I"
+    }
+   ]
+  },
+  {
+   "team": "Mirage Elyandra",
+   "tag": "@Wave_League",
+   "players": [
+    {
+     "playerName": "ME Badlulu",
+     "summonerName": "zCXi1lImn",
+     "puuId": "SMhXqly3BTv8vVhKGYgMaONv6HDciTTC4S80AXBE1CmyxLWJJ-yDJbB36sHvKMaWXHy8UIpiCRrrmg",
+     "lp": 234,
+     "lpDiff": 0,
+     "division": "MA",
+     "subDiv": "I"
+    },
+    {
+     "playerName": "ME Memento",
+     "summonerName": "30x",
+     "puuId": "QRxPQiHAVmwH5BANZezqQa9cvQjHrRvOqEzZkQR8lejqYZCfUWeLX_UKQCs_DUhEjyGwx3z19NrUfA",
+     "lp": 75,
+     "lpDiff": 0,
+     "division": "Dia",
+     "subDiv": "I"
+    },
+    {
+     "playerName": "ME RangJun",
+     "summonerName": "1111222233",
+     "puuId": "t3m95F3UhmE9zbZ8maupdnKfKh9Qq0kY9fYfhIkX7pGibR6gz7RonygMRFbDMhy-mX_gQ7vVUcYijQ",
+     "lp": 475,
+     "lpDiff": 0,
+     "division": "GM",
+     "subDiv": "I"
+    },
+    {
+     "playerName": "ME Cody Sun",
+     "summonerName": "SnowySteps",
+     "puuId": "XCvOLy__NCGNu53gW_KpIElaelFior-cOXVE2avcwMrgkJPl0NbFX_F2hqTrSsK-5V5h8CRoXaq0ag",
+     "lp": 686,
+     "lpDiff": 0,
+     "division": "GM",
+     "subDiv": "I"
+    },
+    {
+     "playerName": "ME Raxxo",
+     "summonerName": "ayekasia",
+     "puuId": "xub22YEhlU3bnmfH4m4DyPs98uQsda7JOCNsnqwzgtdVjDNrapj48-OOGXDbxfnmn80BybGFXrbo7Q",
+     "lp": 75,
+     "lpDiff": 0,
+     "division": "Dia",
+     "subDiv": "I"
+    }
+   ]
+  }
+ ]
+}
