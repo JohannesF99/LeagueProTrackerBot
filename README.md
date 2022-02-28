@@ -1,8 +1,13 @@
 # League Pro Tracker Bot
 
-This is a Twitter-Bot, who tweets regular updates about the SoloQ of League of Legends Pro-Players. 
+This is a <a href="https://twitter.com/LEC_Darkrai">Twitter-Bot</a>, who tweets regular updates about the SoloQ of League of Legends Pro-Players. 
 
-Currently, it's only implemented for Germany's <a href="https://twitter.com/PL_Pro_Tracker">PrimeLeague</a>, but it can be used to spectate any region or players.
+Currently, it's only implemented for 
+<ul>
+    <li>Germany's <a href="https://twitter.com/PrimeLeague">PrimeLeague</a></li>
+    <li>France's <a href="https://twitter.com/LFLOfficiel">LFL</a></li>
+</ul>
+But it can be used to spectate any region or players.
 
 ## How to build the application:
 
