@@ -28,8 +28,8 @@ var (
 )
 
 func GetRankedDataForAllPlayers(region model.Region) []model.Player {
-	//getUpdatedLeaguePoints(&region.Teams)
-	//updatePlayerWatchList(region)
+	getUpdatedLeaguePoints(&region.Teams)
+	updatePlayerWatchList(region)
 	return getSortedPlayerList(region.Teams)
 }
 

@@ -10,7 +10,7 @@ func main() {
 	fmt.Println("Go-Twitter Bot v0.01")
 	region := utils.LoadRegionWatchlist()
 	if utils.ShouldUpdatePuuid() {
-		utils.UpdatePuuidForAllTeams(region)
+		utils.UpdatePuuidForAllTeams(&region)
 	}
 	//tweet, _ := twitter.Tweet(utils.GenerateTextBody(utils.GetRankedDataForAllPlayers(&teams), 2))
 	//println(strings.Join(tweet, "\n"))

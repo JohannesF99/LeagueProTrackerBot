@@ -22,14 +22,14 @@ func LoadRegionWatchlist() model.Region {
 	return region
 }
 
-func UpdatePuuidForAllTeams(region model.Region) {
+func UpdatePuuidForAllTeams(region *model.Region) {
 	for i, s := range region.Teams {
 		for j, si := range s.Players {
-			region.Teams[i].Players[j].PuuId = lol.GetPlayerPUUIDBySummonerID(si.SummonerName)
+			(*region).Teams[i].Players[j].PuuId = lol.GetPlayerPUUIDBySummonerID(si.SummonerName)
 		}
 		time.Sleep(1 * time.Second)
 	}
-	updatePlayerWatchList(region)
+	updatePlayerWatchList(*region)
 }
 
 func updatePlayerWatchList(region model.Region) {
