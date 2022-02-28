@@ -62,7 +62,7 @@ func getPlayerAccountAsJSONByInGameName(inGameName string) string {
 		fmt.Printf("The HTTP request failed with error %s\n", err)
 	}
 	data, _ := ioutil.ReadAll(response.Body)
-	println(response.Status)
+	println(inGameName, response.Status)
 	return string(data)
 }
 
