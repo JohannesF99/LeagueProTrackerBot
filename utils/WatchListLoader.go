@@ -27,7 +27,7 @@ func UpdatePuuidForAllTeams(region model.Region) {
 		for j, si := range s.Players {
 			region.Teams[i].Players[j].PuuId = lol.GetPlayerPUUIDBySummonerID(si.SummonerName)
 		}
-		time.Sleep(2 * time.Second)
+		time.Sleep(1 * time.Second)
 	}
 	updatePlayerWatchList(region)
 }
