@@ -4,7 +4,7 @@
  "teams": [
   {
    "team": "Misfits Premier",
-   "tag": "@GamerLegion",
+   "tag": "@MisfitsggLoL",
    "players": [
     {
      "playerName": "MSFP Irrelevant",
@@ -55,7 +55,7 @@
   },
   {
    "team": "Karmine Corp",
-   "tag": "@EinSpandau",
+   "tag": "@KarmineCorp",
    "players": [
     {
      "playerName": "KC Cabochard",
@@ -106,7 +106,7 @@
   },
   {
    "team": "Vitality.Bee",
-   "tag": "@mousesports",
+   "tag": "@TeamVitality",
    "players": [
     {
      "playerName": "VITB Szygenda",
@@ -157,7 +157,7 @@
   },
   {
    "team": "Solary",
-   "tag": "@S04Esports",
+   "tag": "@SolaryTV",
    "players": [
     {
      "playerName": "SLY Kio",
@@ -208,7 +208,7 @@
   },
   {
    "team": "LDLC OL",
-   "tag": "@UnicornsOfLove",
+   "tag": "@LDLC_OL_eng",
    "players": [
     {
      "playerName": "LDLC Ragner",
@@ -259,7 +259,7 @@
   },
   {
    "team": "BDS Academy",
-   "tag": "@BIGCLANgg",
+   "tag": "@TeamBDS",
    "players": [
     {
      "playerName": "BDSA Agresivoo",
@@ -310,7 +310,7 @@
   },
   {
    "team": "GameWard",
-   "tag": "@SKGaming",
+   "tag": "@GameWardTeam",
    "players": [
     {
      "playerName": "GW Melonik",
@@ -361,7 +361,7 @@
   },
   {
    "team": "GamersOrigin",
-   "tag": "@PENTA1860",
+   "tag": "@GamersOrigin",
    "players": [
     {
      "playerName": "GO Vizicsacsi",
@@ -412,7 +412,7 @@
   },
   {
    "team": "Team Oplon",
-   "tag": "@E_WIE_ESPORTS",
+   "tag": "@TeamOplon",
    "players": [
     {
      "playerName": "TO Darlik",
@@ -463,7 +463,7 @@
   },
   {
    "team": "Mirage Elyandra",
-   "tag": "@Wave_League",
+   "tag": "@MirageElyandra",
    "players": [
     {
      "playerName": "ME Badlulu",
