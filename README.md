@@ -4,6 +4,7 @@ This is a <a href="https://twitter.com/LEC_Darkrai">Twitter-Bot</a>, who tweets 
 
 Currently, it's only implemented for 
 <ul>
+    <li>Europe's <a href="https://twitter.com/LEC">LEC</a></li>
     <li>Germany's <a href="https://twitter.com/PrimeLeague">PrimeLeague</a></li>
     <li>France's <a href="https://twitter.com/LFLOfficiel">LFL</a></li>
 </ul>
