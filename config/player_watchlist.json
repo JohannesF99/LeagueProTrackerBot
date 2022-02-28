@@ -1,412 +1,516 @@
-[
- {
-  "team": "GamerLegion",
-  "tag": "@GamerLegion",
-  "players": [
-   {
-    "playerName": "GL Sacre",
-    "summonerName": "Sacre",
-    "puuId": "MPpFbLFUAZBMyDNFxGHvLmGlE8Ns-omI-Jamo8vKofXxClzxazJV-XyPV0vjRBgbMaqLteMGHxnsSw",
-    "lp": 87,
-    "lpDiff": 0
-   },
-   {
-    "playerName": "GL D4nka",
-    "summonerName": "GLGLGLGLGL",
-    "puuId": "QMMALhEiDoslW8aTb4a7lXRDEBuUmbAIU9Jk6HtTxmluOI7Iuy99JcMGEQ6Z8DDH6ik-RTEh1wPU4Q",
-    "lp": 788,
-    "lpDiff": 0
-   },
-   {
-    "playerName": "GL Escik",
-    "summonerName": "waedfswefdrs",
-    "puuId": "YDznfup0_0U5gwzrR9vakrvYQRWl5K0Eo6GmGFNWnrkWxDMqDGNzLdj0sMYXvq5B5Vpq5brQCG4wDQ",
-    "lp": 577,
-    "lpDiff": 0
-   },
-   {
-    "playerName": "GL Jinjo",
-    "summonerName": "GL jinjo",
-    "puuId": "A5JUtKb8KhAVdyoruszYS_i9CTu6X9qAbqnX9pBEspwepXpCMW-rkShW29tuyJRA6gSHqCD7iUaHOg",
-    "lp": 392,
-    "lpDiff": 0
-   },
-   {
-    "playerName": "GL Visdom",
-    "summonerName": "Visdom",
-    "puuId": "14WbRzE1D9SUEbf5yEsfmPwdShr_95n8XjtL5bh2NXXel_tOuWlQKiISqV6Ehr82roX3FGStyBG24w",
-    "lp": 0,
-    "lpDiff": 0
-   }
-  ]
- },
- {
-  "team": "Eintracht Spandau",
-  "tag": "@EinSpandau",
-  "players": [
-   {
-    "playerName": "EINS Pride",
-    "summonerName": "EINS Pride",
-    "puuId": "YK6oNJ2qhMNow5xp2_fiWf7gOA0W7-wY3iL1YrsCI1pDR3K1vcUu62S6t5dthIBzmiKgu5d0YDSqqQ",
-    "lp": 871,
-    "lpDiff": 0
-   },
-   {
-    "playerName": "EINS Obsess",
-    "summonerName": "EINS87 Obsess",
-    "puuId": "MdDF4n5RmVGm1Ex77B7GWc01hNXjXY9roG76Kudh34Of6lujRZuBDsdL5pCtpscBCkCPmn0iKLH5yA",
-    "lp": 614,
-    "lpDiff": 0
-   },
-   {
-    "playerName": "EINS Special",
-    "summonerName": "jsjsjsjsjsjs",
-    "puuId": "XXqND7MnXMH7qYe7FHOZQLZei0zH7Elm0WQmco55tatzhW5jEUXhGNtYlDmFxbmjfoQI-Q7lBxPgZw",
-    "lp": 614,
-    "lpDiff": 0
-   },
-   {
-    "playerName": "EINS Kynetic",
-    "summonerName": "Kynetic",
-    "puuId": "JUm_i-7CLjGD7pwJVQXMJ-jQqk2gjhMomI_ncygzNJ3nwhnHxK42DsbRLPf2uDbSfmP1P0lxK0QwuQ",
-    "lp": 631,
-    "lpDiff": 0
-   },
-   {
-    "playerName": "EINS Prime",
-    "summonerName": "EINS Prime",
-    "puuId": "X5zTXprzYJ2-e8HoM68mesNp1QclQM79N7BOWN5Txfx0yEBdmBY5CvV97h7MXAQ2nLCPk1XUAA1WIg",
-    "lp": 1067,
-    "lpDiff": 0
-   }
-  ]
- },
- {
-  "team": "Mouz",
-  "tag": "@mousesports",
-  "players": [
-   {
-    "playerName": "MOUZ BOSS",
-    "summonerName": "NUB0REZ",
-    "puuId": "iBh2n4c1D4q_PngYEbFzxDhUjxmnwVPCtQEaUedSncIDLh6Kio6lpsahdPQ1Dip2l2m94HWwvAiBkg",
-    "lp": 851,
-    "lpDiff": 0
-   },
-   {
-    "playerName": "MOUZ Lyncas",
-    "summonerName": "its payday",
-    "puuId": "TuVV-nBMZtZjfdrnx5Eu_vU-ckboijS-WNaG7_XjPa49Hs3oyLGg7V4qrAPrPgjSoGR5Px0KCRSSLQ",
-    "lp": 110,
-    "lpDiff": 0
-   },
-   {
-    "playerName": "MOUZ Nomanz",
-    "summonerName": "huge performanz",
-    "puuId": "RO0MoiqbYO9-ujWLZqQaC8lQjF5mrxKYerkp2Ad4nPfT5L2NlZt7cqcg6mQKF9R9j-Nzf3Q_xEmvCA",
-    "lp": 1097,
-    "lpDiff": 0
-   },
-   {
-    "playerName": "MOUZ Practice",
-    "summonerName": "Practice",
-    "puuId": "51g5wSKLFbwMAUWAOne-hsaGTH7Xrl1nRbN8vE_5jR8zZjnED1ccFqGGUZMp5jTBV4cch2e3M-IV1w",
-    "lp": 180,
-    "lpDiff": 0
-   },
-   {
-    "playerName": "MOUZ Saviour",
-    "summonerName": "MOUZ Saviour",
-    "puuId": "Yu7n-AEsYI3LPt-qcZoPo0C8oR7-JGo4vX_-Qbc5wIJYzL3DrfAQMdFUUM9jv7Hv5uRAYjwaBUARow",
-    "lp": 363,
-    "lpDiff": 0
-   }
-  ]
- },
- {
-  "team": "Schalke 04",
-  "tag": "@S04Esports",
-  "players": [
-   {
-    "playerName": "S04 Scarface",
-    "summonerName": "S04 Scarface",
-    "puuId": "iDVD4CsSYxbgvjGh9hJMN7DsCwgpuvlWeyb4Un8QAHD56x5hOjoEgP44WEuYvb3MHNlcQCkxUb6hFw",
-    "lp": 254,
-    "lpDiff": 0
-   },
-   {
-    "playerName": "S04 Isma",
-    "summonerName": "ismaaa",
-    "puuId": "40WXTgncNyotDlRxShIIWPUdu8EFtNZBfMUe2hscOlepgcSIarpGwPmvVrtQ2JSzVhsdIv5aEL3IIA",
-    "lp": 713,
-    "lpDiff": 0
-   },
-   {
-    "playerName": "S04 Decay",
-    "summonerName": "Decay0",
-    "puuId": "U2hv7x_0toOoI3x_chqbM6a00iE4wM80ov4nTjAxtAw0bjegSkiJWUd2vlLjcfAOilDacK9qun5xAA",
-    "lp": 778,
-    "lpDiff": 0
-   },
-   {
-    "playerName": "S04 TakeSet",
-    "summonerName": "TakeSet sama",
-    "puuId": "hGKy1flPAo2-RDW0IHgPRZpywP8S2F5-jmouOrvGdzuLF79tbKdtLLGZiTRNWDCp4dBcezc2dXErwg",
-    "lp": 1252,
-    "lpDiff": 0
-   },
-   {
-    "playerName": "S04 HungryPanda",
-    "summonerName": "S04 HungryPanda",
-    "puuId": "pFzXK8p0QF5dnccogjxOh5J6c7T-77DVUSlpUqsPph_mgtQsRQVHWwiFINSKNx0QcoByhl1BM55QAQ",
-    "lp": 586,
-    "lpDiff": 0
-   }
-  ]
- },
- {
-  "team": "Unicorns Of Love Sexy Edition",
-  "tag": "@UnicornsOfLove",
-  "players": [
-   {
-    "playerName": "USE iBo",
-    "summonerName": "waterenjoyer123",
-    "puuId": "9XtcHmKPkG-MhWgdbgyQe1LxE0mN7H7Hcbph-94Fdf8mQmvpsOl5FOmR0FFSYWXgSmAxG_jmaoqt6Q",
-    "lp": 740,
-    "lpDiff": 0
-   },
-   {
-    "playerName": "USE Lurox",
-    "summonerName": "Luroxx",
-    "puuId": "R4y4s_-vT_UOAteK4hghdviaOOhtLr3u_1OUA2e3NKRyXe2tAOu-6TFQuoFAzNf1CAfOQU3uZ6W1rw",
-    "lp": 1091,
-    "lpDiff": 0
-   },
-   {
-    "playerName": "USE Ruby",
-    "summonerName": "RRubyLOL",
-    "puuId": "IOfZ_hIwXG9yfusiJ5UtYAM_zbojDP6gOZX3POvRg9HcELBA69FHM_eOdeV7xoEvANoeUNE7MHqgGg",
-    "lp": 1142,
-    "lpDiff": 0
-   },
-   {
-    "playerName": "USE Reptile",
-    "summonerName": "UOL Reptile",
-    "puuId": "aCYrwfD4N0zCUiwu0d1b2pgnzob8CxT5tz-j8tg8Y48Tb1TKQ4PWheNSMTnAEcWW1uBpYfgCeLUQ6A",
-    "lp": 821,
-    "lpDiff": 0
-   },
-   {
-    "playerName": "USE Dreamer Ace",
-    "summonerName": "Dreaming On",
-    "puuId": "LNBMSzp9NOUfofC74yZec-PCp2L_Y3n2zAyl2wI2oVajR2INaUzxFGaYrbSzLtdpM1yc2J1WIUiiFA",
-    "lp": 487,
-    "lpDiff": 0
-   }
-  ]
- },
- {
-  "team": "BIG",
-  "tag": "@BIGCLANgg",
-  "players": [
-   {
-    "playerName": "BIG Venour",
-    "summonerName": "Venour",
-    "puuId": "qo3KMlk_OM7s3vAxMF_2NDpqQzkfYJT6GoyqAPpMcGFYQLj0vpWL604-sVg-kiTHFtvNVZmj-lKf-A",
-    "lp": 673,
-    "lpDiff": 0
-   },
-   {
-    "playerName": "BIG Pabu",
-    "summonerName": "8485",
-    "puuId": "ykMl-heCpOIKF_qw9xpUjObtMvbSuhHJW190NRieJui_iYA5YE14faUxbpK3DML_IrRKMpUE3cVs8A",
-    "lp": 1231,
-    "lpDiff": -3
-   },
-   {
-    "playerName": "BIG ZaZee",
-    "summonerName": "ZaZeeeeZaZ",
-    "puuId": "DqTMYrVlx8oRI1BqtrJZfCXCoP9uZFoQPOz4Uoc3BjR1DExJ84HBJn8UcdISRZD258B7WqxzR73jTw",
-    "lp": 1091,
-    "lpDiff": 0
-   },
-   {
-    "playerName": "BIG Keduii",
-    "summonerName": "hi im keduii",
-    "puuId": "-4QctnEBM0b8L6fzY2_IjyPo_mQK0bbj9mXI85GaH9txPHlTvoHzRp8qWS-zfCtSyJ84BiwAUrMD1g",
-    "lp": 1444,
-    "lpDiff": 0
-   },
-   {
-    "playerName": "BIG QUICKTIMER",
-    "summonerName": "ashafar9",
-    "puuId": "a7ISvubyuwgd3slrt56crA-9myQacdDH7jsfKLx6SzgURRiBEB1Bp3SIHbkoxU65gqPAbbaJGUWcsQ",
-    "lp": 378,
-    "lpDiff": 0
-   }
-  ]
- },
- {
-  "team": "SK Gaming Prime",
-  "tag": "@SKGaming",
-  "players": [
-   {
-    "playerName": "SKP Alois",
-    "summonerName": "SK Alois",
-    "puuId": "eEoeftNUaSwKHqcM0RaGBAo9IUGCMQ_GsO0_Wu8vPQ6o7rbUd8m8OS_nNH8iuWwuqERZkdiGtQ2-Tg",
-    "lp": 990,
-    "lpDiff": 0
-   },
-   {
-    "playerName": "SKP Eckas",
-    "summonerName": "SK Eckas",
-    "puuId": "1zuEKNI9hygV3Vu9dxQRJolkN9yIh9yb8Z5ihNhXzpFxlsfmJV53y8ETpTra31AH_tWx9zltj07_rA",
-    "lp": 779,
-    "lpDiff": 0
-   },
-   {
-    "playerName": "SKP Dehaste",
-    "summonerName": "SK DEHASTE",
-    "puuId": "wDvvHq1IPaJ67gZluxYGToh_9Q4-F1xEQ5ox0vbsS_wEl5IOBsOA1vG3uZIjSsPLI2M4P1Bh4hrHFw",
-    "lp": 484,
-    "lpDiff": 0
-   },
-   {
-    "playerName": "SKP Gadget",
-    "summonerName": "gdgd",
-    "puuId": "EJcNKi-gbmOtiFvWXqUqOHEXWNXXQDBWr2FSAUdsh8MmBpROZmZKxFV2lFSykLctDFKULH9U5XMBQw",
-    "lp": 1207,
-    "lpDiff": 0
-   },
-   {
-    "playerName": "SKP Mystiques",
-    "summonerName": "JUMALEISÖN",
-    "puuId": "v3Xe92GzOcuxuaPsWKp8QOA_R5MZ0x6deHLv6jrWs-DmEMUq_PFnLgQu-WFm6-MWb51lS4YtwgiKxg",
-    "lp": 203,
-    "lpDiff": 0
-   }
-  ]
- },
- {
-  "team": "PENTA 1860",
-  "tag": "@PENTA1860",
-  "players": [
-   {
-    "playerName": "PTA Sleeping",
-    "summonerName": "sleepking",
-    "puuId": "qZ5RNQt0fQmB2dGuJrDeObvV5HGHlt3uz6l_nQq4hbH9ymsXiBt_GPDcEHYHN_5YU9S-zSZEQV2mFA",
-    "lp": 557,
-    "lpDiff": 0
-   },
-   {
-    "playerName": "PTA Rulfchen",
-    "summonerName": "Rulfchen",
-    "puuId": "8GMXPrc1CJq6t3UGEPhglwrZFMts40pNLr4LzoEO19bPkoL9DlEsGykneOHMTjtZ0cj53fLzBqloag",
-    "lp": 819,
-    "lpDiff": 0
-   },
-   {
-    "playerName": "PTA Phantomles",
-    "summonerName": "Phantomles",
-    "puuId": "1wkspghG9F06sgIJbo1BHeuq3I1Jp674tTA-7Vh3CC9Ez77hB_cB3sVtVV4AjE9voAk_FUeJRyVwMA",
-    "lp": 741,
-    "lpDiff": 0
-   },
-   {
-    "playerName": "PTA Fun K3y",
-    "summonerName": "FUN k3y",
-    "puuId": "WefozBwL5xBRitcBconyn6RYJfcuRDkmo08uKlHkkYgfRrYwQ865xkbchM-5tnTwWiRxgH2ZAH_A5Q",
-    "lp": 1019,
-    "lpDiff": 0
-   },
-   {
-    "playerName": "PTA Tolerant",
-    "summonerName": "BADT",
-    "puuId": "oEGXNUDqUFfGGKzxfF4Bj_oeOs2Vi3rgZ9RlA_um1p1AdUYJoPRjCfSZwFXl7iAnDmK9UCMVoxPLIg",
-    "lp": 599,
-    "lpDiff": 0
-   }
-  ]
- },
- {
-  "team": "E Wie Einfach E-Sports",
-  "tag": "@E_WIE_ESPORTS",
-  "players": [
-   {
-    "playerName": "EWI Marcel",
-    "summonerName": "Prophet",
-    "puuId": "XRLs-GIB6s3wrZhAq6Yy2ApH9oyVNPnWrcf0Jso-NaU22-WxE1EcQdpYWlVw52t87m5I-VBoDRsjKg",
-    "lp": 496,
-    "lpDiff": 0
-   },
-   {
-    "playerName": "EWI Afroboi",
-    "summonerName": "Afrogirl",
-    "puuId": "fkNvvq7jql11xgp0lXz49rjnkiarHxqwStovO_ln_zR6GwjTuAzmU998Af9rNAjP5IijgB_m872_Rw",
-    "lp": 581,
-    "lpDiff": 0
-   },
-   {
-    "playerName": "EWI Kaymin",
-    "summonerName": "K wie Kaymin",
-    "puuId": "4cn9SJ8VvD2CJJjbjDqUz9piRzTBpvLQDrBuJswilOkE-acDY0eeX77yk5bZ5lqg0Ce7bUNcbZfVKg",
-    "lp": 810,
-    "lpDiff": 0
-   },
-   {
-    "playerName": "EWI Kxng",
-    "summonerName": "kxxd",
-    "puuId": "e-vDdMUxBruSLlPzehWR_ni-c1anKbRWEJkgTTtsfRenIfMYqsE97P6IDae4t-MKBqloQOXb-Anh0g",
-    "lp": 204,
-    "lpDiff": 0
-   },
-   {
-    "playerName": "EWI PsYcraw",
-    "summonerName": "PsYcraw",
-    "puuId": "7GVYkmKz4RGou6fUWzzVlDIQ3_BwdKUB11-ICcXppACh_A30HErXFalPaATW_c3I9Jy1nBQNEcwAjQ",
-    "lp": 811,
-    "lpDiff": 0
-   }
-  ]
- },
- {
-  "team": "Wave eSports",
-  "tag": "@Wave_League",
-  "players": [
-   {
-    "playerName": "WAVE sOAZ",
-    "summonerName": "jïn morï",
-    "puuId": "uCFDnpuefELtHUYIRPbXUe9ydMmBJ0SWIbcUTHulExhjT_g4pxfTv0MPJm7CLnBg740JsI85vV8pkw",
-    "lp": 234,
-    "lpDiff": 0
-   },
-   {
-    "playerName": "WAVE Mirai",
-    "summonerName": "C0 Eula",
-    "puuId": "dV25lGc3NNv0Qh6hcdBx-QvimM2hEECIOOCLgwCatU8QxtMgb2heFoZmFB6HDGjxyn_NlleBpngogg",
-    "lp": 75,
-    "lpDiff": 0
-   },
-   {
-    "playerName": "WAVE Xoura",
-    "summonerName": "Bandicoot",
-    "puuId": "f-MJbnnW7HhLkvCRsY93bm4jojxmTA9uS6DFOUUc0FID4nP4-6MCaZVe5L3t7anIUWx9SjJN51XrjQ",
-    "lp": 544,
-    "lpDiff": 0
-   },
-   {
-    "playerName": "WAVE Bung",
-    "summonerName": "BlauBarschBube",
-    "puuId": "KjeJf29XN6BGxQkTadnFuN2nwZqoOGNppJn44LpZszGkZWN67hTCV9ZCvfy1R2hymlWzRR0J_3x5JA",
-    "lp": 680,
-    "lpDiff": 0
-   },
-   {
-    "playerName": "WAVE Adept",
-    "summonerName": "hela vägen",
-    "puuId": "SpFRR0seFROGUYzXm9z9kFuH7eQ9g4jWh3HsefGCr5U9qdNmnTmvnLWiIt-7mqHymLnd44S1obIZzg",
-    "lp": 75,
-    "lpDiff": 0
-   }
-  ]
- }
-]
+{
+ "leagueName": "@PrimeLeague",
+ "hashtag": "#StraussPrimeLeague",
+ "teams": [
+  {
+   "team": "GamerLegion",
+   "tag": "@GamerLegion",
+   "players": [
+    {
+     "playerName": "GL Sacre",
+     "summonerName": "Sacre",
+     "puuId": "MPpFbLFUAZBMyDNFxGHvLmGlE8Ns-omI-Jamo8vKofXxClzxazJV-XyPV0vjRBgbMaqLteMGHxnsSw",
+     "lp": 87,
+     "lpDiff": 0,
+     "division": "Dia",
+     "subDiv": "I"
+    },
+    {
+     "playerName": "GL D4nka",
+     "summonerName": "GLGLGLGLGL",
+     "puuId": "QMMALhEiDoslW8aTb4a7lXRDEBuUmbAIU9Jk6HtTxmluOI7Iuy99JcMGEQ6Z8DDH6ik-RTEh1wPU4Q",
+     "lp": 798,
+     "lpDiff": 0,
+     "division": "Chall",
+     "subDiv": "I"
+    },
+    {
+     "playerName": "GL Escik",
+     "summonerName": "waedfswefdrs",
+     "puuId": "YDznfup0_0U5gwzrR9vakrvYQRWl5K0Eo6GmGFNWnrkWxDMqDGNzLdj0sMYXvq5B5Vpq5brQCG4wDQ",
+     "lp": 553,
+     "lpDiff": 0,
+     "division": "GM",
+     "subDiv": "I"
+    },
+    {
+     "playerName": "GL Jinjo",
+     "summonerName": "GL jinjo",
+     "puuId": "A5JUtKb8KhAVdyoruszYS_i9CTu6X9qAbqnX9pBEspwepXpCMW-rkShW29tuyJRA6gSHqCD7iUaHOg",
+     "lp": 529,
+     "lpDiff": 0,
+     "division": "GM",
+     "subDiv": "I"
+    },
+    {
+     "playerName": "GL Visdom",
+     "summonerName": "Visdom",
+     "puuId": "14WbRzE1D9SUEbf5yEsfmPwdShr_95n8XjtL5bh2NXXel_tOuWlQKiISqV6Ehr82roX3FGStyBG24w",
+     "lp": 0,
+     "lpDiff": -99,
+     "division": "",
+     "subDiv": ""
+    }
+   ]
+  },
+  {
+   "team": "Eintracht Spandau",
+   "tag": "@EinSpandau",
+   "players": [
+    {
+     "playerName": "EINS Pride",
+     "summonerName": "EINS Pride",
+     "puuId": "YK6oNJ2qhMNow5xp2_fiWf7gOA0W7-wY3iL1YrsCI1pDR3K1vcUu62S6t5dthIBzmiKgu5d0YDSqqQ",
+     "lp": 875,
+     "lpDiff": 17,
+     "division": "Chall",
+     "subDiv": "I"
+    },
+    {
+     "playerName": "EINS Obsess",
+     "summonerName": "EINS87 Obsess",
+     "puuId": "MdDF4n5RmVGm1Ex77B7GWc01hNXjXY9roG76Kudh34Of6lujRZuBDsdL5pCtpscBCkCPmn0iKLH5yA",
+     "lp": 637,
+     "lpDiff": -15,
+     "division": "GM",
+     "subDiv": "I"
+    },
+    {
+     "playerName": "EINS Special",
+     "summonerName": "jsjsjsjsjsjs",
+     "puuId": "XXqND7MnXMH7qYe7FHOZQLZei0zH7Elm0WQmco55tatzhW5jEUXhGNtYlDmFxbmjfoQI-Q7lBxPgZw",
+     "lp": 626,
+     "lpDiff": -15,
+     "division": "GM",
+     "subDiv": "I"
+    },
+    {
+     "playerName": "EINS Kynetic",
+     "summonerName": "Kynetic",
+     "puuId": "JUm_i-7CLjGD7pwJVQXMJ-jQqk2gjhMomI_ncygzNJ3nwhnHxK42DsbRLPf2uDbSfmP1P0lxK0QwuQ",
+     "lp": 607,
+     "lpDiff": -16,
+     "division": "GM",
+     "subDiv": "I"
+    },
+    {
+     "playerName": "EINS Prime",
+     "summonerName": "EINS Prime",
+     "puuId": "X5zTXprzYJ2-e8HoM68mesNp1QclQM79N7BOWN5Txfx0yEBdmBY5CvV97h7MXAQ2nLCPk1XUAA1WIg",
+     "lp": 1065,
+     "lpDiff": -16,
+     "division": "Chall",
+     "subDiv": "I"
+    }
+   ]
+  },
+  {
+   "team": "Mouz",
+   "tag": "@mousesports",
+   "players": [
+    {
+     "playerName": "MOUZ BOSS",
+     "summonerName": "NUB0REZ",
+     "puuId": "iBh2n4c1D4q_PngYEbFzxDhUjxmnwVPCtQEaUedSncIDLh6Kio6lpsahdPQ1Dip2l2m94HWwvAiBkg",
+     "lp": 816,
+     "lpDiff": -16,
+     "division": "Chall",
+     "subDiv": "I"
+    },
+    {
+     "playerName": "MOUZ Lyncas",
+     "summonerName": "its payday",
+     "puuId": "TuVV-nBMZtZjfdrnx5Eu_vU-ckboijS-WNaG7_XjPa49Hs3oyLGg7V4qrAPrPgjSoGR5Px0KCRSSLQ",
+     "lp": 149,
+     "lpDiff": 0,
+     "division": "MA",
+     "subDiv": "I"
+    },
+    {
+     "playerName": "MOUZ Nomanz",
+     "summonerName": "huge performanz",
+     "puuId": "RO0MoiqbYO9-ujWLZqQaC8lQjF5mrxKYerkp2Ad4nPfT5L2NlZt7cqcg6mQKF9R9j-Nzf3Q_xEmvCA",
+     "lp": 1135,
+     "lpDiff": 0,
+     "division": "Chall",
+     "subDiv": "I"
+    },
+    {
+     "playerName": "MOUZ Practice",
+     "summonerName": "Practice",
+     "puuId": "51g5wSKLFbwMAUWAOne-hsaGTH7Xrl1nRbN8vE_5jR8zZjnED1ccFqGGUZMp5jTBV4cch2e3M-IV1w",
+     "lp": 167,
+     "lpDiff": 0,
+     "division": "MA",
+     "subDiv": "I"
+    },
+    {
+     "playerName": "MOUZ Saviour",
+     "summonerName": "MOUZ Saviour",
+     "puuId": "Yu7n-AEsYI3LPt-qcZoPo0C8oR7-JGo4vX_-Qbc5wIJYzL3DrfAQMdFUUM9jv7Hv5uRAYjwaBUARow",
+     "lp": 320,
+     "lpDiff": 0,
+     "division": "MA",
+     "subDiv": "I"
+    }
+   ]
+  },
+  {
+   "team": "Schalke 04",
+   "tag": "@S04Esports",
+   "players": [
+    {
+     "playerName": "S04 Scarface",
+     "summonerName": "S04 Scarface",
+     "puuId": "iDVD4CsSYxbgvjGh9hJMN7DsCwgpuvlWeyb4Un8QAHD56x5hOjoEgP44WEuYvb3MHNlcQCkxUb6hFw",
+     "lp": 259,
+     "lpDiff": 0,
+     "division": "MA",
+     "subDiv": "I"
+    },
+    {
+     "playerName": "S04 Isma",
+     "summonerName": "ismaaa",
+     "puuId": "40WXTgncNyotDlRxShIIWPUdu8EFtNZBfMUe2hscOlepgcSIarpGwPmvVrtQ2JSzVhsdIv5aEL3IIA",
+     "lp": 760,
+     "lpDiff": 0,
+     "division": "GM",
+     "subDiv": "I"
+    },
+    {
+     "playerName": "S04 Decay",
+     "summonerName": "Decay0",
+     "puuId": "U2hv7x_0toOoI3x_chqbM6a00iE4wM80ov4nTjAxtAw0bjegSkiJWUd2vlLjcfAOilDacK9qun5xAA",
+     "lp": 730,
+     "lpDiff": 0,
+     "division": "GM",
+     "subDiv": "I"
+    },
+    {
+     "playerName": "S04 TakeSet",
+     "summonerName": "TakeSet sama",
+     "puuId": "hGKy1flPAo2-RDW0IHgPRZpywP8S2F5-jmouOrvGdzuLF79tbKdtLLGZiTRNWDCp4dBcezc2dXErwg",
+     "lp": 1252,
+     "lpDiff": 0,
+     "division": "Chall",
+     "subDiv": "I"
+    },
+    {
+     "playerName": "S04 HungryPanda",
+     "summonerName": "S04 HungryPanda",
+     "puuId": "pFzXK8p0QF5dnccogjxOh5J6c7T-77DVUSlpUqsPph_mgtQsRQVHWwiFINSKNx0QcoByhl1BM55QAQ",
+     "lp": 637,
+     "lpDiff": 17,
+     "division": "GM",
+     "subDiv": "I"
+    }
+   ]
+  },
+  {
+   "team": "Unicorns Of Love Sexy Edition",
+   "tag": "@UnicornsOfLove",
+   "players": [
+    {
+     "playerName": "USE iBo",
+     "summonerName": "waterenjoyer123",
+     "puuId": "9XtcHmKPkG-MhWgdbgyQe1LxE0mN7H7Hcbph-94Fdf8mQmvpsOl5FOmR0FFSYWXgSmAxG_jmaoqt6Q",
+     "lp": 714,
+     "lpDiff": -15,
+     "division": "GM",
+     "subDiv": "I"
+    },
+    {
+     "playerName": "USE Lurox",
+     "summonerName": "Luroxx",
+     "puuId": "R4y4s_-vT_UOAteK4hghdviaOOhtLr3u_1OUA2e3NKRyXe2tAOu-6TFQuoFAzNf1CAfOQU3uZ6W1rw",
+     "lp": 1078,
+     "lpDiff": 0,
+     "division": "Chall",
+     "subDiv": "I"
+    },
+    {
+     "playerName": "USE Ruby",
+     "summonerName": "RRubyLOL",
+     "puuId": "IOfZ_hIwXG9yfusiJ5UtYAM_zbojDP6gOZX3POvRg9HcELBA69FHM_eOdeV7xoEvANoeUNE7MHqgGg",
+     "lp": 1142,
+     "lpDiff": 0,
+     "division": "Chall",
+     "subDiv": "I"
+    },
+    {
+     "playerName": "USE Reptile",
+     "summonerName": "UOL Reptile",
+     "puuId": "aCYrwfD4N0zCUiwu0d1b2pgnzob8CxT5tz-j8tg8Y48Tb1TKQ4PWheNSMTnAEcWW1uBpYfgCeLUQ6A",
+     "lp": 805,
+     "lpDiff": 0,
+     "division": "Chall",
+     "subDiv": "I"
+    },
+    {
+     "playerName": "USE Dreamer Ace",
+     "summonerName": "Dreaming On",
+     "puuId": "LNBMSzp9NOUfofC74yZec-PCp2L_Y3n2zAyl2wI2oVajR2INaUzxFGaYrbSzLtdpM1yc2J1WIUiiFA",
+     "lp": 497,
+     "lpDiff": 0,
+     "division": "MA",
+     "subDiv": "I"
+    }
+   ]
+  },
+  {
+   "team": "BIG",
+   "tag": "@BIGCLANgg",
+   "players": [
+    {
+     "playerName": "BIG Venour",
+     "summonerName": "Venour",
+     "puuId": "qo3KMlk_OM7s3vAxMF_2NDpqQzkfYJT6GoyqAPpMcGFYQLj0vpWL604-sVg-kiTHFtvNVZmj-lKf-A",
+     "lp": 721,
+     "lpDiff": 0,
+     "division": "GM",
+     "subDiv": "I"
+    },
+    {
+     "playerName": "BIG Pabu",
+     "summonerName": "8485",
+     "puuId": "ykMl-heCpOIKF_qw9xpUjObtMvbSuhHJW190NRieJui_iYA5YE14faUxbpK3DML_IrRKMpUE3cVs8A",
+     "lp": 1231,
+     "lpDiff": 0,
+     "division": "Chall",
+     "subDiv": "I"
+    },
+    {
+     "playerName": "BIG ZaZee",
+     "summonerName": "ZaZeeeeZaZ",
+     "puuId": "DqTMYrVlx8oRI1BqtrJZfCXCoP9uZFoQPOz4Uoc3BjR1DExJ84HBJn8UcdISRZD258B7WqxzR73jTw",
+     "lp": 991,
+     "lpDiff": 0,
+     "division": "Chall",
+     "subDiv": "I"
+    },
+    {
+     "playerName": "BIG Keduii",
+     "summonerName": "hi im keduii",
+     "puuId": "-4QctnEBM0b8L6fzY2_IjyPo_mQK0bbj9mXI85GaH9txPHlTvoHzRp8qWS-zfCtSyJ84BiwAUrMD1g",
+     "lp": 1444,
+     "lpDiff": 0,
+     "division": "Chall",
+     "subDiv": "I"
+    },
+    {
+     "playerName": "BIG QUICKTIMER",
+     "summonerName": "ashafar9",
+     "puuId": "a7ISvubyuwgd3slrt56crA-9myQacdDH7jsfKLx6SzgURRiBEB1Bp3SIHbkoxU65gqPAbbaJGUWcsQ",
+     "lp": 424,
+     "lpDiff": 0,
+     "division": "MA",
+     "subDiv": "I"
+    }
+   ]
+  },
+  {
+   "team": "SK Gaming Prime",
+   "tag": "@SKGaming",
+   "players": [
+    {
+     "playerName": "SKP Alois",
+     "summonerName": "SK Alois",
+     "puuId": "eEoeftNUaSwKHqcM0RaGBAo9IUGCMQ_GsO0_Wu8vPQ6o7rbUd8m8OS_nNH8iuWwuqERZkdiGtQ2-Tg",
+     "lp": 1011,
+     "lpDiff": 0,
+     "division": "Chall",
+     "subDiv": "I"
+    },
+    {
+     "playerName": "SKP Eckas",
+     "summonerName": "SK Eckas",
+     "puuId": "1zuEKNI9hygV3Vu9dxQRJolkN9yIh9yb8Z5ihNhXzpFxlsfmJV53y8ETpTra31AH_tWx9zltj07_rA",
+     "lp": 779,
+     "lpDiff": 0,
+     "division": "GM",
+     "subDiv": "I"
+    },
+    {
+     "playerName": "SKP Dehaste",
+     "summonerName": "SK DEHASTE",
+     "puuId": "wDvvHq1IPaJ67gZluxYGToh_9Q4-F1xEQ5ox0vbsS_wEl5IOBsOA1vG3uZIjSsPLI2M4P1Bh4hrHFw",
+     "lp": 484,
+     "lpDiff": 0,
+     "division": "MA",
+     "subDiv": "I"
+    },
+    {
+     "playerName": "SKP Gadget",
+     "summonerName": "gdgd",
+     "puuId": "EJcNKi-gbmOtiFvWXqUqOHEXWNXXQDBWr2FSAUdsh8MmBpROZmZKxFV2lFSykLctDFKULH9U5XMBQw",
+     "lp": 1207,
+     "lpDiff": 0,
+     "division": "Chall",
+     "subDiv": "I"
+    },
+    {
+     "playerName": "SKP Mystiques",
+     "summonerName": "JUMALEISÖN",
+     "puuId": "v3Xe92GzOcuxuaPsWKp8QOA_R5MZ0x6deHLv6jrWs-DmEMUq_PFnLgQu-WFm6-MWb51lS4YtwgiKxg",
+     "lp": 272,
+     "lpDiff": 0,
+     "division": "MA",
+     "subDiv": "I"
+    }
+   ]
+  },
+  {
+   "team": "PENTA 1860",
+   "tag": "@PENTA1860",
+   "players": [
+    {
+     "playerName": "PTA Sleeping",
+     "summonerName": "sleepking",
+     "puuId": "qZ5RNQt0fQmB2dGuJrDeObvV5HGHlt3uz6l_nQq4hbH9ymsXiBt_GPDcEHYHN_5YU9S-zSZEQV2mFA",
+     "lp": 557,
+     "lpDiff": 0,
+     "division": "GM",
+     "subDiv": "I"
+    },
+    {
+     "playerName": "PTA Rulfchen",
+     "summonerName": "Rulfchen",
+     "puuId": "8GMXPrc1CJq6t3UGEPhglwrZFMts40pNLr4LzoEO19bPkoL9DlEsGykneOHMTjtZ0cj53fLzBqloag",
+     "lp": 819,
+     "lpDiff": 0,
+     "division": "Chall",
+     "subDiv": "I"
+    },
+    {
+     "playerName": "PTA Phantomles",
+     "summonerName": "Phantomles",
+     "puuId": "1wkspghG9F06sgIJbo1BHeuq3I1Jp674tTA-7Vh3CC9Ez77hB_cB3sVtVV4AjE9voAk_FUeJRyVwMA",
+     "lp": 741,
+     "lpDiff": 0,
+     "division": "GM",
+     "subDiv": "I"
+    },
+    {
+     "playerName": "PTA Fun K3y",
+     "summonerName": "FUN k3y",
+     "puuId": "WefozBwL5xBRitcBconyn6RYJfcuRDkmo08uKlHkkYgfRrYwQ865xkbchM-5tnTwWiRxgH2ZAH_A5Q",
+     "lp": 1019,
+     "lpDiff": 0,
+     "division": "Chall",
+     "subDiv": "I"
+    },
+    {
+     "playerName": "PTA Tolerant",
+     "summonerName": "BADT",
+     "puuId": "oEGXNUDqUFfGGKzxfF4Bj_oeOs2Vi3rgZ9RlA_um1p1AdUYJoPRjCfSZwFXl7iAnDmK9UCMVoxPLIg",
+     "lp": 616,
+     "lpDiff": 0,
+     "division": "GM",
+     "subDiv": "I"
+    }
+   ]
+  },
+  {
+   "team": "E Wie Einfach E-Sports",
+   "tag": "@E_WIE_ESPORTS",
+   "players": [
+    {
+     "playerName": "EWI Marcel",
+     "summonerName": "Prophet",
+     "puuId": "XRLs-GIB6s3wrZhAq6Yy2ApH9oyVNPnWrcf0Jso-NaU22-WxE1EcQdpYWlVw52t87m5I-VBoDRsjKg",
+     "lp": 496,
+     "lpDiff": 0,
+     "division": "GM",
+     "subDiv": "I"
+    },
+    {
+     "playerName": "EWI Afroboi",
+     "summonerName": "Afrogirl",
+     "puuId": "fkNvvq7jql11xgp0lXz49rjnkiarHxqwStovO_ln_zR6GwjTuAzmU998Af9rNAjP5IijgB_m872_Rw",
+     "lp": 581,
+     "lpDiff": 0,
+     "division": "GM",
+     "subDiv": "I"
+    },
+    {
+     "playerName": "EWI Kaymin",
+     "summonerName": "K wie Kaymin",
+     "puuId": "4cn9SJ8VvD2CJJjbjDqUz9piRzTBpvLQDrBuJswilOkE-acDY0eeX77yk5bZ5lqg0Ce7bUNcbZfVKg",
+     "lp": 792,
+     "lpDiff": 0,
+     "division": "Chall",
+     "subDiv": "I"
+    },
+    {
+     "playerName": "EWI Kxng",
+     "summonerName": "kxxd",
+     "puuId": "e-vDdMUxBruSLlPzehWR_ni-c1anKbRWEJkgTTtsfRenIfMYqsE97P6IDae4t-MKBqloQOXb-Anh0g",
+     "lp": 197,
+     "lpDiff": 0,
+     "division": "MA",
+     "subDiv": "I"
+    },
+    {
+     "playerName": "EWI PsYcraw",
+     "summonerName": "PsYcraw",
+     "puuId": "7GVYkmKz4RGou6fUWzzVlDIQ3_BwdKUB11-ICcXppACh_A30HErXFalPaATW_c3I9Jy1nBQNEcwAjQ",
+     "lp": 813,
+     "lpDiff": 0,
+     "division": "Chall",
+     "subDiv": "I"
+    }
+   ]
+  },
+  {
+   "team": "Wave eSports",
+   "tag": "@Wave_League",
+   "players": [
+    {
+     "playerName": "WAVE sOAZ",
+     "summonerName": "jïn morï",
+     "puuId": "uCFDnpuefELtHUYIRPbXUe9ydMmBJ0SWIbcUTHulExhjT_g4pxfTv0MPJm7CLnBg740JsI85vV8pkw",
+     "lp": 234,
+     "lpDiff": 0,
+     "division": "MA",
+     "subDiv": "I"
+    },
+    {
+     "playerName": "WAVE Mirai",
+     "summonerName": "C0 Eula",
+     "puuId": "dV25lGc3NNv0Qh6hcdBx-QvimM2hEECIOOCLgwCatU8QxtMgb2heFoZmFB6HDGjxyn_NlleBpngogg",
+     "lp": 75,
+     "lpDiff": 0,
+     "division": "Dia",
+     "subDiv": "I"
+    },
+    {
+     "playerName": "WAVE Xoura",
+     "summonerName": "Bandicoot",
+     "puuId": "f-MJbnnW7HhLkvCRsY93bm4jojxmTA9uS6DFOUUc0FID4nP4-6MCaZVe5L3t7anIUWx9SjJN51XrjQ",
+     "lp": 488,
+     "lpDiff": -15,
+     "division": "GM",
+     "subDiv": "I"
+    },
+    {
+     "playerName": "WAVE Bung",
+     "summonerName": "BlauBarschBube",
+     "puuId": "KjeJf29XN6BGxQkTadnFuN2nwZqoOGNppJn44LpZszGkZWN67hTCV9ZCvfy1R2hymlWzRR0J_3x5JA",
+     "lp": 702,
+     "lpDiff": -16,
+     "division": "GM",
+     "subDiv": "I"
+    },
+    {
+     "playerName": "WAVE Adept",
+     "summonerName": "hela vägen",
+     "puuId": "SpFRR0seFROGUYzXm9z9kFuH7eQ9g4jWh3HsefGCr5U9qdNmnTmvnLWiIt-7mqHymLnd44S1obIZzg",
+     "lp": 75,
+     "lpDiff": 0,
+     "division": "Dia",
+     "subDiv": "I"
+    }
+   ]
+  }
+ ]
+}

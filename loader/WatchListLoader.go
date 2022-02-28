@@ -10,16 +10,16 @@ import (
 	"time"
 )
 
-func LoadPrimeleagueWatchlist() []model.Team {
-	var teams []model.Team
-	jsonFile, _ := os.Open("./config/player_watchlist.json")
-	defer jsonFile.Close()
-	byteValue, _ := ioutil.ReadAll(jsonFile)
-	err := json.Unmarshal(byteValue, &teams)
+func LoadRegionWatchlist() model.Region {
+	var region model.Region
+	regionAsJson, _ := os.Open("./config/player_watchlist.json")
+	defer regionAsJson.Close()
+	byteValue, _ := ioutil.ReadAll(regionAsJson)
+	err := json.Unmarshal(byteValue, &region)
 	if err != nil {
 		fmt.Printf(err.Error())
 	}
-	return teams
+	return region
 }
 
 func UpdatePuuidForAllTeams(teams *[]model.Team) {
