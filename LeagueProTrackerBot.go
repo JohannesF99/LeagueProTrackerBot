@@ -28,7 +28,7 @@ func main() {
 	//loader.UpdatePuuidForAllTeams(&teams)
 	//tweet, _ := twitter.Tweet(generateTextBody(loader.GetRankedDataForAllPlayers(&teams), 2))
 	//println(strings.Join(tweet, "\n"))
-	println(strings.Join(generateTextBody(region, loader.GetRankedDataForAllPlayers(&region.Teams), 2), "\n"))
+	println(strings.Join(generateTextBody(region, loader.GetRankedDataForAllPlayers(region), 2), "\n"))
 }
 
 func generateTextBody(region model.Region, ranking []model.Player, pages int) []string {
