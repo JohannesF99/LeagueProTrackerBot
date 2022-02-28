@@ -6,4 +6,6 @@ type Player struct {
 	PuuId        string `json:"puuId"`
 	Lp           int    `json:"lp"`
 	LpDiff       int    `json:"lpDiff"`
+	Division     string `json:"division"`
+	SubDiv       string `json:"subDiv"`
 }
