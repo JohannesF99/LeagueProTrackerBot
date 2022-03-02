@@ -30,7 +30,7 @@ func GenerateTextBody(region model.Region, ranking []model.Player, pages int) []
 func GenerateChampionsTextBody(region model.Region, ranking []model.ChampionMap, pages int) []string {
 	date := time.Now()
 	bodyList := generateChampionLadderAsString(ranking, pages)
-	bodyList[0] = "💫 " + region.LeagueName + " Most Played " + date.Format("02.01.") + " 💫\n\n" + bodyList[0] + "\n" + region.Hashtag
+	bodyList[0] = "🔥 " + region.LeagueName + " SoloQ Most Played " + date.Format("02.01.") + " 🔥\n\n" + bodyList[0] + "\n" + region.Hashtag
 	return bodyList
 }
 
