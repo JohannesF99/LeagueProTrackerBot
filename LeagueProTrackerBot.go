@@ -8,7 +8,7 @@ import (
 )
 
 func main() {
-	fmt.Println("Go-Twitter Bot v0.01")
+	fmt.Println("Go-Twitter Bot v0.2.0")
 	region := utils.LoadRegionWatchlist()
 	if utils.ShouldUpdatePuuid() {
 		utils.UpdatePuuidForAllTeams(&region)
