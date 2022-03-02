@@ -10,7 +10,8 @@ import (
 )
 
 const (
-	uri = "https://euw1.api.riotgames.com"
+	uriEUW    = "https://euw1.api.riotgames.com"
+	uriEUROPE = "https://europe.api.riotgames.com"
 )
 
 func GetPlayerRank(puuid string, queue string) model.LeagueEntryDTO {
@@ -53,10 +54,32 @@ func getPlayerRankByID(id string) []model.LeagueEntryDTO {
 	return ranks
 }
 
+func GetPlayerMatchIdsByPUUID(puuid string) []string {
+	matchIdJSON := getPlayerMatchIDsAsJSONByPUUID(puuid)
+	var matchIdList []string
+	err := json.Unmarshal([]byte(matchIdJSON), &matchIdList)
+	if err != nil {
+		println(err.Error())
+		return []string{}
+	}
+	return matchIdList
+}
+
+func GetMatchDetailsByMatchId(matchId string) model.MatchDTO {
+	matchDetailsJSON := getMatchDetailsAsJSONByMatchID(matchId)
+	var matchDetails model.MatchDTO
+	err := json.Unmarshal([]byte(matchDetailsJSON), &matchDetails)
+	if err != nil {
+		println(err.Error())
+		return model.MatchDTO{}
+	}
+	return matchDetails
+}
+
 //ALL FUNCTION, WHICH RETURN RAW JSONS
 
 func getPlayerAccountAsJSONByInGameName(inGameName string) string {
-	api := uri + "/lol/summoner/v4/summoners/by-name/" + inGameName + "?api_key=" + config.GetRiotKey()
+	api := uriEUW + "/lol/summoner/v4/summoners/by-name/" + inGameName + "?api_key=" + config.GetRiotKey()
 	response, err := http.Get(api)
 	if err != nil {
 		fmt.Printf("The HTTP request failed with error %s\n", err)
@@ -67,7 +90,7 @@ func getPlayerAccountAsJSONByInGameName(inGameName string) string {
 }
 
 func getPlayerAccountAsJSONByPUUID(puuid string) string {
-	api := uri + "/lol/summoner/v4/summoners/by-puuid/" + puuid + "?api_key=" + config.GetRiotKey()
+	api := uriEUW + "/lol/summoner/v4/summoners/by-puuid/" + puuid + "?api_key=" + config.GetRiotKey()
 	response, err := http.Get(api)
 	if err != nil {
 		fmt.Printf("The HTTP request failed with error %s\n", err)
@@ -78,7 +101,27 @@ func getPlayerAccountAsJSONByPUUID(puuid string) string {
 }
 
 func getPlayerRankAsJSONByID(id string) string {
-	api := uri + "/lol/league/v4/entries/by-summoner/" + id + "?api_key=" + config.GetRiotKey()
+	api := uriEUW + "/lol/league/v4/entries/by-summoner/" + id + "?api_key=" + config.GetRiotKey()
+	response, err := http.Get(api)
+	if err != nil {
+		fmt.Printf("The HTTP request failed with error %s\n", err)
+	}
+	data, _ := ioutil.ReadAll(response.Body)
+	return string(data)
+}
+
+func getPlayerMatchIDsAsJSONByPUUID(puuid string) string {
+	api := uriEUROPE + "/lol/match/v5/matches/by-puuid/" + puuid + "/ids?type=ranked&start=0&count=20&api_key=" + config.GetRiotKey()
+	response, err := http.Get(api)
+	if err != nil {
+		fmt.Printf("The HTTP request failed with error %s\n", err)
+	}
+	data, _ := ioutil.ReadAll(response.Body)
+	return string(data)
+}
+
+func getMatchDetailsAsJSONByMatchID(matchId string) string {
+	api := uriEUROPE + "/lol/match/v5/matches/" + matchId + "?api_key=" + config.GetRiotKey()
 	response, err := http.Get(api)
 	if err != nil {
 		fmt.Printf("The HTTP request failed with error %s\n", err)
