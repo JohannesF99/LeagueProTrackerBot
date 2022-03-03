@@ -27,6 +27,13 @@ func GenerateTextBody(region model.Region, ranking []model.Player, pages int) []
 	return bodyList
 }
 
+func GenerateChampionsTextBody(region model.Region, ranking []model.ChampionMap, pages int) []string {
+	date := time.Now()
+	bodyList := generateChampionLadderAsString(ranking, pages)
+	bodyList[0] = "🔥 " + region.LeagueName + " SoloQ Most Played " + date.Format("02.01.") + " 🔥\n\n" + bodyList[0] + "\n" + region.Hashtag
+	return bodyList
+}
+
 func generateLadderAsString(ranks []model.Player, pages int) []string {
 	var bodyList []string
 	for i := 0; i < pages; i++ {
@@ -41,6 +48,24 @@ func generateLadderAsString(ranks []model.Player, pages int) []string {
 		bodyList = append(bodyList, body)
 	}
 	return bodyList
+}
+
+func generateChampionLadderAsString(ranks []model.ChampionMap, pages int) []string {
+	var bodyList []string
+	for i := 0; i < pages; i++ {
+		var body string
+		for j := i * 5; j < (i*5)+5; j++ {
+			body += emoji[j] + " " +
+				ranks[j].ChampionName + "   (" + strconv.Itoa(ranks[j].TimesPlayed) + " Game | " +
+				strconv.FormatFloat(getPresencePercentage(ranks[j].TimesPlayed), 'f', 2, 32) + "%)\n"
+		}
+		bodyList = append(bodyList, body)
+	}
+	return bodyList
+}
+
+func getPresencePercentage(timesPlayed int) float64 {
+	return (float64(timesPlayed) / 1000) * 100
 }
 
 func getDivision(player model.Player) string {

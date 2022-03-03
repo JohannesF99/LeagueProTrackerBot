@@ -8,13 +8,15 @@ import (
 )
 
 func main() {
-	fmt.Println("Go-Twitter Bot v0.01")
+	fmt.Println("Go-Twitter Bot v0.2.0")
 	region := utils.LoadRegionWatchlist()
 	if utils.ShouldUpdatePuuid() {
 		utils.UpdatePuuidForAllTeams(&region)
+	} else if utils.GenerateChampionList() {
+		tweet, _ := twitter.Tweet(utils.GenerateChampionsTextBody(region, utils.GetMostPlayedChampions(region), utils.GetTweetCount()))
+		println(strings.Join(tweet, "\n"))
 	} else {
 		tweet, _ := twitter.Tweet(utils.GenerateTextBody(region, utils.GetRankedDataForAllPlayers(region), utils.GetTweetCount()))
 		println(strings.Join(tweet, "\n"))
-		//println(strings.Join(utils.GenerateTextBody(region, utils.GetRankedDataForAllPlayers(region), utils.GetTweetCount()), "\n\n"))
 	}
 }
