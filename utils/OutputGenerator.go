@@ -56,7 +56,7 @@ func generateChampionLadderAsString(ranks []model.ChampionMap, pages int) []stri
 		var body string
 		for j := i * 5; j < (i*5)+5; j++ {
 			body += emoji[j] + " " +
-				ranks[j].ChampionName + "   (" + strconv.Itoa(ranks[j].TimesPlayed) + " Game | " +
+				ranks[j].ChampionName + "   (" + strconv.Itoa(ranks[j].TimesPlayed) + " Games | " +
 				strconv.FormatFloat(getPresencePercentage(ranks[j].TimesPlayed), 'f', 2, 32) + "%)\n"
 		}
 		bodyList = append(bodyList, body)
