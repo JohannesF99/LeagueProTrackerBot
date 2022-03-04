@@ -8,13 +8,18 @@ import (
 )
 
 func GetMostPlayedChampions(region model.Region) []model.ChampionMap {
-	mostChampionsPlayed := make(map[string]int)
+	mostChampionsPlayed := make(map[string]model.ChampionMap)
 	for _, s := range region.Teams {
 		for _, si := range s.Players {
 			for _, sj := range lol.GetPlayerMatchIdsByPUUID(si.PuuId) {
 				details := lol.GetMatchDetailsByMatchId(sj)
-				championName := details.Info.Participants[getPlayerIndex(si.PuuId, details.Metadata.Participants)].ChampionName
-				mostChampionsPlayed[championName]++
+				championName := getChampionName(si.PuuId, details)
+				win := isWin(getPlayerIndex(si.PuuId, details), details)
+				mostChampionsPlayed[championName] = model.ChampionMap{
+					ChampionName: championName,
+					TimesPlayed:  mostChampionsPlayed[championName].TimesPlayed + 1,
+					Wins:         mostChampionsPlayed[championName].Wins + win,
+				}
 				println(championName)
 				time.Sleep(1200 * time.Millisecond)
 			}
@@ -23,8 +28,8 @@ func GetMostPlayedChampions(region model.Region) []model.ChampionMap {
 	return parseMapToSortedArray(mostChampionsPlayed)
 }
 
-func getPlayerIndex(puuid string, participants []string) int {
-	for i, s := range participants {
+func getPlayerIndex(puuid string, details model.MatchDTO) int {
+	for i, s := range details.Metadata.Participants {
 		if s == puuid {
 			return i
 		}
@@ -32,10 +37,22 @@ func getPlayerIndex(puuid string, participants []string) int {
 	return 11
 }
 
-func parseMapToSortedArray(championsMap map[string]int) []model.ChampionMap {
+func isWin(playerId int, details model.MatchDTO) int {
+	if (playerId < 5 && details.Info.Teams[0].Win) || (playerId >= 5 && details.Info.Teams[1].Win) {
+		return 1
+	} else {
+		return 0
+	}
+}
+
+func getChampionName(puuId string, details model.MatchDTO) string {
+	return details.Info.Participants[getPlayerIndex(puuId, details)].ChampionName
+}
+
+func parseMapToSortedArray(championsMap map[string]model.ChampionMap) []model.ChampionMap {
 	var championMapAsArray []model.ChampionMap
-	for k, v := range championsMap {
-		championMapAsArray = append(championMapAsArray, model.ChampionMap{ChampionName: k, TimesPlayed: v})
+	for _, champion := range championsMap {
+		championMapAsArray = append(championMapAsArray, champion)
 	}
 	sort.Slice(championMapAsArray, func(i, j int) bool {
 		return championMapAsArray[i].TimesPlayed > championMapAsArray[j].TimesPlayed
